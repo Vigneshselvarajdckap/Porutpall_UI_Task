@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Noto Sans Tamil', sans-serif;
 }
 body {
   background: url(/images/background.jpg);
@@ -71,12 +72,14 @@ body .main-container .section {
   width: 100%;
   margin: auto;
   background-color: rgba(0, 0, 0, 0.521);
+  height: 100vh;
 }
 body .main-container .section .content {
   max-width: 800px;
   width: 100%;
   margin: auto;
   padding: 90px 0;
+  display: none;
 }
 body .main-container .section .content .thirukural {
   max-width: 580px;
@@ -147,6 +150,40 @@ body .main-container .section .content .btn .save-btn:hover {
   background-color: #ffff74;
   border: 1px solid black;
   color: black;
+}
+body .main-container .section .nizhalchineral-section .inner-nizhachineral-section {
+  padding: 82px 0px 0px 160px;
+}
+body .main-container .section .nizhalchineral-section .inner-nizhachineral-section .first-container-contents {
+  color: white;
+  width: 100%;
+  max-width: 450px;
+}
+body .main-container .section .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .specialText {
+  color: #fff76a;
+}
+body .main-container .section .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .titleName {
+  color: #fff;
+  font-size: 38px;
+  line-height: 36px;
+  font-weight: 600;
+  padding-bottom: 45px;
+}
+body .main-container .section .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiDate .eventDate {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 40px;
+}
+body .main-container .section .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiTimings .eventTime {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 32px;
+  padding: 45px 0px;
+}
+body .main-container .section .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiLocation .venue {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 40px;
 }
 @media screen and (max-width: 1280px) {
   body {

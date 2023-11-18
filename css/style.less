@@ -1,75 +1,89 @@
-
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans Tamil', sans-serif;
+
 }
 
 
-body{
+body {
+
     background: url(/images/background.jpg);
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    .main-container{
-        .header{
+
+
+
+    .main-container {
+        .header {
             // position: fixed;
             width: 100%;
             background-color: black;
-            .header-inner-section{
+
+            .header-inner-section {
                 max-width: 1250px;
                 width: 100%;
-                margin: auto; 
+                margin: auto;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                .logo-container{
+
+                .logo-container {
                     max-width: 510px;
                     width: 100%;
-                    .logo{
+
+                    .logo {
                         max-width: 380px;
                         width: 100%;
                         padding: 26px 0;
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        .sub-logo{
-                            img{
+
+                        .sub-logo {
+                            img {
                                 padding-right: 10px;
                             }
                         }
-                        .social-media-link{
+
+                        .social-media-link {
                             display: none;
                         }
                     }
                 }
-                .line-small-screen{
+
+                .line-small-screen {
                     display: none;
                 }
-                .bar-icon{
+
+                .bar-icon {
                     display: none;
                 }
-                .navigation{
-                    ul{
+
+                .navigation {
+                    ul {
                         display: flex;
                         justify-content: space-between;
-                        li{
+
+                        li {
                             list-style: none;
                             margin-right: 25px;
                             line-height: 50px;
                             font-size: 13px;
                             font-weight: 400px;
                             color: #fff;
-                            &:hover{
+
+                            &:hover {
                                 cursor: pointer;
                                 color: rgb(255, 255, 116);
                             }
                         }
                     }
                 }
-                .social-media-link{
+
+                .social-media-link {
                     max-width: 75px;
                     width: 100%;
                     display: flex;
@@ -77,16 +91,21 @@ body{
                 }
             }
         }
-        .section{
+
+        .section {
             width: 100%;
             margin: auto;
             background-color: rgba(0, 0, 0, 0.521);
-            .content{
+            height: 100vh;
+
+            .content {
                 max-width: 800px;
                 width: 100%;
                 margin: auto;
                 padding: 90px 0;
-                .thirukural{
+                display: none;
+
+                .thirukural {
                     max-width: 580px;
                     width: 100%;
                     font-size: 20px;
@@ -96,9 +115,11 @@ body{
                     color: #fff;
                     padding-bottom: 40px;
                 }
-                .center{
+
+                .center {
                     text-align: center;
-                    .about-dckap{
+
+                    .about-dckap {
                         letter-spacing: 0.8px;
                         max-width: 800px;
                         width: 100%;
@@ -109,7 +130,8 @@ body{
                         color: #fff;
                         padding-bottom: 40px;
                     }
-                    .heading{
+
+                    .heading {
                         text-align: center;
                         font-size: 72px;
                         font-weight: 700;
@@ -117,7 +139,8 @@ body{
                         line-height: 94px;
                         color: #fff;
                     }
-                    .tamilum{
+
+                    .tamilum {
                         font-size: 34px;
                         font-weight: 700;
                         font-family: poppins-extralight, sans-serif;
@@ -125,227 +148,143 @@ body{
                         color: #fff;
                     }
                 }
-                .btn{
+
+                .btn {
                     max-width: 500px;
                     width: 100%;
                     margin: auto;
                     display: flex;
                     justify-content: space-between;
-                    .rule-btn{
+
+                    .rule-btn {
                         padding: 10px;
                         background-color: black;
                         color: rgb(255, 255, 116);
                         border-radius: 25px;
                         text-decoration: none;
-                        &:hover{
+
+                        &:hover {
                             background-color: rgb(255, 255, 116);
                             border: 1px solid black;
                             color: black;
                         }
                     }
-                    .save-btn{
+
+                    .save-btn {
                         .rule-btn;
                     }
                 }
             }
-        }
-    }
-}
 
 
+            // third page styles
 
+            .nizhalchineral-section {
+                .inner-nizhachineral-section {
+                    padding: 82px 0px 0px 160px;
 
-@media screen and (max-width : 1280px){
-    
-body{
-    background: url(/images/background.jpg);
-    margin: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    .main-container{
-        .header{
-            width: 100%;
-            background-color: black;
-            .header-inner-section{
-                max-width: 1000px;
-                width: 100%;
-                margin: auto; 
-                display: block;
-                .logo-container{
-                    max-width: 1000px;
-                    width: 100%;
-                    .logo{
-                        max-width: 1000px;
+                    .first-container-contents {
+                        color: white;
                         width: 100%;
-                        padding: 26px 0;
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        .sub-logo{
-                            img{
-                                padding-right: 10px;
-                            }
+                        max-width: 450px;
+
+                        .specialText {
+                            color: #fff76a;
                         }
-                        .social-media-link{
-                            display: block;
-                            max-width: 100px;
-                            width: 100%;
-                            display: flex;
-                            justify-content: space-between;
-                        }
-                    }
-                }
-                .line-small-screen{
-                    display: block;
-                    width: 100%;
-                    height: 1px;
-                    background-color: rgb(255, 255, 116);
-                }
-                .bar-icon{
-                    display: none;
-                }
-                .navigation{
-                    max-width: 800px;
-                    width: 100%;
-                    margin: auto;
-                    ul{
-                        display: flex;
-                        justify-content: space-between;
-                        li{
-                            list-style: none;
-                            padding: 0;
-                            margin-right: 25px;
-                            line-height: 50px;
-                            font-size: 13px;
-                            font-weight: 400px;
+
+                        .titleName {
                             color: #fff;
-                            &:hover{
-                                cursor: pointer;
-                                color: rgb(255, 255, 116);
+                            font-size: 38px;
+                            line-height: 36px;
+                            font-weight: 600;
+                            // padding-bottom: 95px;
+                            padding-bottom: 45px;
+                        }
+
+                        .nizhalchiDate {
+                            .eventDate{
+                                font-size: 28px;
+                                font-weight: bold;
+                                line-height: 40px;
+                                
                             }
                         }
-                    }
-                }
-                .social-media-link{
-                    max-width: 75px;
-                    width: 100%;
-                    display: flex;
-                    justify-content: space-between;
-                    display: none;
-                }
-            }
-        }
-        .section{
-            width: 100%;
-            margin: auto;
-            background-color: rgba(0, 0, 0, 0.521);
-            .content{
-                max-width: 800px;
-                width: 100%;
-                margin: auto;
-                padding: 90px 0;
-                .thirukural{
-                    max-width: 580px;
-                    width: 100%;
-                    font-size: 20px;
-                    font-weight: 700;
-                    font-family: poppins-extralight, sans-serif;
-                    line-height: 28px;
-                    color: #fff;
-                    padding-bottom: 40px;
-                }
-                .center{
-                    text-align: center;
-                    .about-dckap{
-                        letter-spacing: 0.8px;
-                        max-width: 800px;
-                        width: 100%;
-                        margin: auto;
-                        font-size: 28px;
-                        font-weight: 700;
-                        font-family: poppins-extralight, sans-serif;
-                        color: #fff;
-                        padding-bottom: 40px;
-                    }
-                    .heading{
-                        text-align: center;
-                        font-size: 72px;
-                        font-weight: 700;
-                        font-family: poppins-extralight, sans-serif;
-                        line-height: 94px;
-                        color: #fff;
-                    }
-                    .tamilum{
-                        font-size: 34px;
-                        font-weight: 700;
-                        font-family: poppins-extralight, sans-serif;
-                        line-height: 94px;
-                        color: #fff;
-                    }
-                }
-                .btn{
-                    max-width: 500px;
-                    width: 100%;
-                    margin: auto;
-                    display: flex;
-                    justify-content: space-between;
-                    .rule-btn{
-                        padding: 10px;
-                        background-color: black;
-                        color: rgb(255, 255, 116);
-                        border-radius: 25px;
-                        text-decoration: none;
-                        border: 1px solid black;
-                        &:hover{
-                            background-color: rgb(255, 255, 116);
-                            border: 1px solid black;
-                            color: black;
+                        .nizhalchiTimings{
+                            .eventTime{
+                                font-size: 28px;
+                                font-weight: bold;
+                                line-height: 32px;
+                                padding: 45px 0px;
+                            }
                         }
+                        .nizhalchiLocation{
+                            .venue{
+                                font-size: 28px;
+                                font-weight: bold;
+                                line-height: 40px;
+                            }
+                        }
+
+                    
                     }
-                    .save-btn{
-                        .rule-btn;
-                    }
+
                 }
             }
+
         }
     }
 }
-}
 
 
 
-@media screen and (max-width : 1024px){
-    
-    body{
+
+
+
+
+
+
+
+
+
+// media queries
+@media screen and (max-width : 1280px) {
+
+    body {
         background: url(/images/background.jpg);
         margin: auto;
         background-repeat: no-repeat;
         background-size: cover;
-        .main-container{
-            .header{
+
+        .main-container {
+            .header {
                 width: 100%;
                 background-color: black;
-                .header-inner-section{
-                    max-width: 730px;
+
+                .header-inner-section {
+                    max-width: 1000px;
                     width: 100%;
-                    margin: auto; 
+                    margin: auto;
                     display: block;
-                    .logo-container{
-                        max-width: 730px;
+
+                    .logo-container {
+                        max-width: 1000px;
                         width: 100%;
-                        .logo{
-                            max-width: 730px;
+
+                        .logo {
+                            max-width: 1000px;
                             width: 100%;
                             padding: 26px 0;
                             display: flex;
                             justify-content: space-between;
                             align-items: center;
-                            .sub-logo{
-                                img{
+
+                            .sub-logo {
+                                img {
                                     padding-right: 10px;
                                 }
                             }
-                            .social-media-link{
+
+                            .social-media-link {
                                 display: block;
                                 max-width: 100px;
                                 width: 100%;
@@ -354,23 +293,28 @@ body{
                             }
                         }
                     }
-                    .line-small-screen{
+
+                    .line-small-screen {
                         display: block;
                         width: 100%;
                         height: 1px;
                         background-color: rgb(255, 255, 116);
                     }
-                    .bar-icon{
+
+                    .bar-icon {
                         display: none;
                     }
-                    .navigation{
-                        max-width: 600px;
+
+                    .navigation {
+                        max-width: 800px;
                         width: 100%;
                         margin: auto;
-                        ul{
+
+                        ul {
                             display: flex;
                             justify-content: space-between;
-                            li{
+
+                            li {
                                 list-style: none;
                                 padding: 0;
                                 margin-right: 25px;
@@ -378,14 +322,16 @@ body{
                                 font-size: 13px;
                                 font-weight: 400px;
                                 color: #fff;
-                                &:hover{
+
+                                &:hover {
                                     cursor: pointer;
                                     color: rgb(255, 255, 116);
                                 }
                             }
                         }
                     }
-                    .social-media-link{
+
+                    .social-media-link {
                         max-width: 75px;
                         width: 100%;
                         display: flex;
@@ -394,16 +340,19 @@ body{
                     }
                 }
             }
-            .section{
+
+            .section {
                 width: 100%;
                 margin: auto;
                 background-color: rgba(0, 0, 0, 0.521);
-                .content{
+
+                .content {
                     max-width: 800px;
                     width: 100%;
                     margin: auto;
                     padding: 90px 0;
-                    .thirukural{
+
+                    .thirukural {
                         max-width: 580px;
                         width: 100%;
                         font-size: 20px;
@@ -413,9 +362,11 @@ body{
                         color: #fff;
                         padding-bottom: 40px;
                     }
-                    .center{
+
+                    .center {
                         text-align: center;
-                        .about-dckap{
+
+                        .about-dckap {
                             letter-spacing: 0.8px;
                             max-width: 800px;
                             width: 100%;
@@ -426,7 +377,8 @@ body{
                             color: #fff;
                             padding-bottom: 40px;
                         }
-                        .heading{
+
+                        .heading {
                             text-align: center;
                             font-size: 72px;
                             font-weight: 700;
@@ -434,7 +386,8 @@ body{
                             line-height: 94px;
                             color: #fff;
                         }
-                        .tamilum{
+
+                        .tamilum {
                             font-size: 34px;
                             font-weight: 700;
                             font-family: poppins-extralight, sans-serif;
@@ -442,26 +395,30 @@ body{
                             color: #fff;
                         }
                     }
-                    .btn{
+
+                    .btn {
                         max-width: 500px;
                         width: 100%;
                         margin: auto;
                         display: flex;
                         justify-content: space-between;
-                        .rule-btn{
+
+                        .rule-btn {
                             padding: 10px;
                             background-color: black;
                             color: rgb(255, 255, 116);
                             border-radius: 25px;
                             text-decoration: none;
                             border: 1px solid black;
-                            &:hover{
+
+                            &:hover {
                                 background-color: rgb(255, 255, 116);
                                 border: 1px solid black;
                                 color: black;
                             }
                         }
-                        .save-btn{
+
+                        .save-btn {
                             .rule-btn;
                         }
                     }
@@ -473,72 +430,269 @@ body{
 
 
 
-@media screen and (max-width : 768px){
-    
-    body{
+@media screen and (max-width : 1024px) {
+
+    body {
         background: url(/images/background.jpg);
         margin: auto;
         background-repeat: no-repeat;
         background-size: cover;
-        .main-container{
-            max-width: 768px;
-            width: 100%;
-            margin: auto;
-            .header{
+
+        .main-container {
+            .header {
                 width: 100%;
                 background-color: black;
-                padding: 0 20px;
-                .header-inner-section{
+
+                .header-inner-section {
                     max-width: 730px;
                     width: 100%;
-                    margin: auto; 
+                    margin: auto;
                     display: block;
-                    .logo-container{
+
+                    .logo-container {
                         max-width: 730px;
                         width: 100%;
-                        .logo{
+
+                        .logo {
                             max-width: 730px;
                             width: 100%;
                             padding: 26px 0;
                             display: flex;
                             justify-content: space-between;
                             align-items: center;
-                            .sub-logo{
-                                img{
+
+                            .sub-logo {
+                                img {
                                     padding-right: 10px;
                                 }
                             }
-                            .social-media-link{
-                                display: none;
+
+                            .social-media-link {
+                                display: block;
+                                max-width: 100px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
                             }
                         }
                     }
-                    .line-small-screen{
+
+                    .line-small-screen {
+                        display: block;
+                        width: 100%;
+                        height: 1px;
+                        background-color: rgb(255, 255, 116);
+                    }
+
+                    .bar-icon {
                         display: none;
                     }
-                    .bar-icon{
-                        display: block;
-                        padding: 20px;  
-                        i{
-                            font-size: 24px;
-                            color: #fff;
+
+                    .navigation {
+                        max-width: 600px;
+                        width: 100%;
+                        margin: auto;
+
+                        ul {
+                            display: flex;
+                            justify-content: space-between;
+
+                            li {
+                                list-style: none;
+                                padding: 0;
+                                margin-right: 25px;
+                                line-height: 50px;
+                                font-size: 13px;
+                                font-weight: 400px;
+                                color: #fff;
+
+                                &:hover {
+                                    cursor: pointer;
+                                    color: rgb(255, 255, 116);
+                                }
+                            }
                         }
                     }
-                    .navigation{
+
+                    .social-media-link {
+                        max-width: 75px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
                         display: none;
                     }
                 }
             }
-            .section{
+
+            .section {
                 width: 100%;
                 margin: auto;
                 background-color: rgba(0, 0, 0, 0.521);
-                .content{
+
+                .content {
+                    max-width: 800px;
+                    width: 100%;
+                    margin: auto;
+                    padding: 90px 0;
+
+                    .thirukural {
+                        max-width: 580px;
+                        width: 100%;
+                        font-size: 20px;
+                        font-weight: 700;
+                        font-family: poppins-extralight, sans-serif;
+                        line-height: 28px;
+                        color: #fff;
+                        padding-bottom: 40px;
+                    }
+
+                    .center {
+                        text-align: center;
+
+                        .about-dckap {
+                            letter-spacing: 0.8px;
+                            max-width: 800px;
+                            width: 100%;
+                            margin: auto;
+                            font-size: 28px;
+                            font-weight: 700;
+                            font-family: poppins-extralight, sans-serif;
+                            color: #fff;
+                            padding-bottom: 40px;
+                        }
+
+                        .heading {
+                            text-align: center;
+                            font-size: 72px;
+                            font-weight: 700;
+                            font-family: poppins-extralight, sans-serif;
+                            line-height: 94px;
+                            color: #fff;
+                        }
+
+                        .tamilum {
+                            font-size: 34px;
+                            font-weight: 700;
+                            font-family: poppins-extralight, sans-serif;
+                            line-height: 94px;
+                            color: #fff;
+                        }
+                    }
+
+                    .btn {
+                        max-width: 500px;
+                        width: 100%;
+                        margin: auto;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .rule-btn {
+                            padding: 10px;
+                            background-color: black;
+                            color: rgb(255, 255, 116);
+                            border-radius: 25px;
+                            text-decoration: none;
+                            border: 1px solid black;
+
+                            &:hover {
+                                background-color: rgb(255, 255, 116);
+                                border: 1px solid black;
+                                color: black;
+                            }
+                        }
+
+                        .save-btn {
+                            .rule-btn;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width : 768px) {
+
+    body {
+        background: url(/images/background.jpg);
+        margin: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .main-container {
+            max-width: 768px;
+            width: 100%;
+            margin: auto;
+
+            .header {
+                width: 100%;
+                background-color: black;
+                padding: 0 20px;
+
+                .header-inner-section {
+                    max-width: 730px;
+                    width: 100%;
+                    margin: auto;
+                    display: block;
+
+                    .logo-container {
+                        max-width: 730px;
+                        width: 100%;
+
+                        .logo {
+                            max-width: 730px;
+                            width: 100%;
+                            padding: 26px 0;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            .sub-logo {
+                                img {
+                                    padding-right: 10px;
+                                }
+                            }
+
+                            .social-media-link {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .line-small-screen {
+                        display: none;
+                    }
+
+                    .bar-icon {
+                        display: block;
+                        padding: 20px;
+
+                        i {
+                            font-size: 24px;
+                            color: #fff;
+                        }
+                    }
+
+                    .navigation {
+                        display: none;
+                    }
+                }
+            }
+
+            .section {
+                width: 100%;
+                margin: auto;
+                background-color: rgba(0, 0, 0, 0.521);
+
+                .content {
                     max-width: 800px;
                     width: 100%;
                     margin: auto;
                     padding: 90px 20px;
-                    .thirukural{
+
+                    .thirukural {
                         // text-align: center;
                         max-width: 530px;
                         width: 100%;
@@ -550,9 +704,11 @@ body{
                         color: #fff;
                         padding-bottom: 40px;
                     }
-                    .center{
+
+                    .center {
                         text-align: center;
-                        .about-dckap{
+
+                        .about-dckap {
                             letter-spacing: 0.8px;
                             max-width: 800px;
                             width: 100%;
@@ -563,7 +719,8 @@ body{
                             color: #fff;
                             padding-bottom: 40px;
                         }
-                        .heading{
+
+                        .heading {
                             text-align: center;
                             font-size: 40px;
                             font-weight: 700;
@@ -571,7 +728,8 @@ body{
                             line-height: 94px;
                             color: #fff;
                         }
-                        .tamilum{
+
+                        .tamilum {
                             font-size: 30px;
                             font-weight: 700;
                             font-family: poppins-extralight, sans-serif;
@@ -579,26 +737,30 @@ body{
                             color: #fff;
                         }
                     }
-                    .btn{
+
+                    .btn {
                         max-width: 500px;
                         width: 100%;
                         margin: auto;
                         display: flex;
                         justify-content: space-between;
-                        .rule-btn{
+
+                        .rule-btn {
                             padding: 10px;
                             background-color: black;
                             color: rgb(255, 255, 116);
                             border-radius: 25px;
                             text-decoration: none;
                             border: 1px solid black;
-                            &:hover{
+
+                            &:hover {
                                 background-color: rgb(255, 255, 116);
                                 border: 1px solid black;
                                 color: black;
                             }
                         }
-                        .save-btn{
+
+                        .save-btn {
                             .rule-btn;
                         }
                     }
@@ -610,70 +772,84 @@ body{
 
 
 
-@media screen and (max-width : 580px){
-    
-    body{
+@media screen and (max-width : 580px) {
+
+    body {
         background: url(/images/background.jpg);
         margin: auto;
         background-repeat: no-repeat;
         background-size: cover;
-        .main-container{
+
+        .main-container {
             max-width: 580px;
             width: 100%;
             margin: auto;
-            .header{
+
+            .header {
                 width: 100%;
                 background-color: black;
                 padding: 0 20px;
-                .header-inner-section{
+
+                .header-inner-section {
                     max-width: 730px;
                     width: 100%;
-                    margin: auto; 
+                    margin: auto;
                     display: block;
-                    .logo-container{
+
+                    .logo-container {
                         max-width: 730px;
                         width: 100%;
-                        .logo{
+
+                        .logo {
                             max-width: 730px;
                             width: 100%;
                             padding: 26px 0;
                             display: flex;
                             justify-content: space-between;
                             align-items: center;
-                            .sub-logo{
+
+                            .sub-logo {
                                 display: none;
                             }
-                            .social-media-link{
+
+                            .social-media-link {
                                 display: none;
                             }
                         }
                     }
-                    .line-small-screen{
+
+                    .line-small-screen {
                         display: none;
                     }
-                    .bar-icon{
+
+                    .bar-icon {
                         display: block;
-                        padding: 20px;  
-                        i{
+                        padding: 20px;
+
+                        i {
                             font-size: 24px;
                             color: #fff;
                         }
                     }
-                    .navigation{
+
+                    .navigation {
                         display: none;
                     }
                 }
             }
-            .section{
+
+            .section {
                 width: 100%;
                 margin: auto;
                 background-color: rgba(0, 0, 0, 0.521);
-                .content{
+
+                .content {
                     max-width: 800px;
                     width: 100%;
                     margin: auto;
                     padding: 60px 20px;
-                    .thirukural{
+
+                    .thirukural {
                         // text-align: center;
                         max-width: 530px;
                         width: 100%;
@@ -685,10 +861,12 @@ body{
                         color: #fff;
                         padding-bottom: 30px;
                     }
-                    .center{
+
+                    .center {
                         text-align: center;
                         padding-bottom: 30px;
-                        .about-dckap{
+
+                        .about-dckap {
                             letter-spacing: 0.8px;
                             max-width: 800px;
                             width: 100%;
@@ -699,7 +877,8 @@ body{
                             color: #fff;
                             padding-bottom: 40px;
                         }
-                        .heading{
+
+                        .heading {
                             text-align: center;
                             font-size: 30px;
                             font-weight: 900;
@@ -707,7 +886,8 @@ body{
                             line-height: 20px;
                             color: #fff;
                         }
-                        .tamilum{
+
+                        .tamilum {
                             font-size: 24px;
                             font-weight: 700;
                             font-family: poppins-extralight, sans-serif;
@@ -715,7 +895,8 @@ body{
                             color: #fff;
                         }
                     }
-                    .btn{
+
+                    .btn {
                         max-width: 500px;
                         width: 100%;
                         margin: auto;
@@ -723,7 +904,8 @@ body{
                         // justify-content: space-between;
                         flex-direction: column;
                         text-align: center;
-                        .rule-btn{
+
+                        .rule-btn {
                             padding: 10px;
                             background-color: black;
                             color: rgb(255, 255, 116);
@@ -731,13 +913,15 @@ body{
                             text-decoration: none;
                             margin-bottom: 10px;
                             border: 1px solid black;
-                            &:hover{
+
+                            &:hover {
                                 background-color: rgb(255, 255, 116);
                                 border: 1px solid black;
                                 color: black;
                             }
                         }
-                        .save-btn{
+
+                        .save-btn {
                             .rule-btn;
                         }
                     }
