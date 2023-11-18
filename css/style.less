@@ -3,13 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans Tamil', sans-serif;
-<<<<<<< HEAD
-
-=======
 }
 ::-webkit-scrollbar {
     display: none;
->>>>>>> f81149a8a37fb51d88c511103b9386c80f1e4b65
 }
 
 :root {
@@ -18,10 +14,6 @@
     --button-color: #FFF76A;
 }
 
-<<<<<<< HEAD
-body {
-
-=======
 .btn {
     max-width: 500px;
     width: 100%;
@@ -30,7 +22,7 @@ body {
     justify-content: space-between;
 }
 
-a {
+.button-props {
     text-decoration: none;
     padding: 10px;
     background-color: black;
@@ -48,26 +40,18 @@ a {
 }
 
 body {
->>>>>>> f81149a8a37fb51d88c511103b9386c80f1e4b65
     background: url(/images/background.jpg);
     margin: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Noto Sans Tamil', sans-serif;
 
-<<<<<<< HEAD
-
-
-    .main-container {
-        .header {
-            // position: fixed;
-=======
     .main-container {
         .header {
             position: fixed;
             top: 0;
             left: 0;
->>>>>>> f81149a8a37fb51d88c511103b9386c80f1e4b65
             width: 100%;
             background-color: black;
 
@@ -149,25 +133,14 @@ body {
             width: 100%;
             margin-top: 111px;
             background-color: rgba(0, 0, 0, 0.521);
-<<<<<<< HEAD
-
-
-            .content {
-                max-width: 800px;
-                width: 100%;
-                margin: auto;
-                padding: 90px 0;
-                display: none;
-=======
             background-size: cover;
 
             .content {
                 display: none;
-                max-width: 800px;
+                max-width: 940px;
                 width: 100%;
                 margin: auto;
                 padding: 30px 0;
->>>>>>> f81149a8a37fb51d88c511103b9386c80f1e4b65
 
                 .thirukural {
                     max-width: 580px;
@@ -212,44 +185,120 @@ body {
                         color: #fff;
                     }
                 }
-
-<<<<<<< HEAD
-                .btn {
-                    max-width: 500px;
-                    width: 100%;
-                    margin: auto;
-                    display: flex;
-                    justify-content: space-between;
-
-                    .rule-btn {
-                        padding: 10px;
-                        background-color: black;
-                        color: rgb(255, 255, 116);
-                        border-radius: 25px;
-                        text-decoration: none;
-
-                        &:hover {
-                            background-color: rgb(255, 255, 116);
-                            border: 1px solid black;
-                            color: black;
-                        }
+                .btn{
+                    a{
+                        .button-props;
                     }
+                }
 
-                    .save-btn {
-                        .rule-btn;
+            }
+
+            .content.active {
+                display: block;
+            }
+
+            .nokkam {
+                display: none;
+                max-width: 850px;
+                width: 100%;
+                margin: auto;
+                text-align: center;
+
+                .heading1 {
+
+                    h1 {
+                        font-size: 49px;
+                        font-weight: 700;
+                        line-height: 79px;
+                        color: var(--font-color);
+                    }
+                }
+
+                .heading2 {
+                    margin: 50px 0;
+
+                    h3 {
+                        font-size: 29px;
+                        font-weight: 700;
+                        color: var(--font-color);
+                    }
+                }
+
+                .description {
+                    padding: 0px 50px;
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: var(--font-color);
+                    }
+                }
+
+                .btn {
+                    margin-top: 25px;
+                    display: flex;
+                    justify-content: center;
+                    border-radius: 35px;
+
+                    a {
+                        padding: 15px 40px;
+                        .button-props;
                     }
                 }
             }
 
+            .general-rules {
+                // max-width: 980px;
+                width: 100%;
+                margin: auto;
+                text-align: start;
+                color: var(--font-color);
+                padding-top: 30px;
 
-            // third page styles
-            .overall-nizhalchineral {
-                display: block;
+                ol {
+                    padding-left: 40px;
+
+                    li {
+                        font-size: 16px;
+                        line-height: 30px;
+                        font-weight: 500;
+                        color: var(--font-color);
+                    }
+                }
+
+                .heading {
+                    h1 {
+                        text-align: center;
+                        font-size: 30px;
+                        font-weight: 700;
+                        line-height: 79px;
+                        color: var(--font-color);
+                    }
+                }
+
+                .round-1,
+                .round-2 {
+                    .heading {
+                        h2 {
+                            line-height: 79px;
+                            text-align: center;
+                            font-size: 30px;
+                            font-weight: 700;
+                            color: var(--font-color);
+                        }
+                    }
+                }
+
+            }
+
+             // third page styles
+             .overall-nizhalchineral {
+                // display: block;
 
                 .nizhalchineral-section {
                     display: flex;
                     align-self: start;
-                    padding: 82px 0px 0px 160px;
+                    // padding: 82px 0px 0px 160px;
 
                     .inner-nizhachineral-section {
                         padding-top: 30px;
@@ -348,75 +397,20 @@ body {
                         height: 1px;
                         background-color: white;
 
-=======
-            }
-
-            .content.active {
-                display: block;
-            }
-
-            .nokkam {
-                display: none;
-                max-width: 850px;
-                width: 100%;
-                margin: auto;
-                text-align: center;
-
-                .heading1 {
-
-                    h1 {
-                        font-size: 49px;
-                        font-weight: 700;
-                        line-height: 79px;
-                        color: var(--font-color);
-                    }
-                }
-
-                .heading2 {
-                    margin: 50px 0;
-
-                    h3 {
-                        font-size: 29px;
-                        font-weight: 700;
-                        color: var(--font-color);
-                    }
-                }
-
-                .description {
-                    padding: 0px 50px;
-
-                    p {
-                        font-size: 16px;
-                        font-weight: 400;
-                        color: var(--font-color);
-                    }
-                }
-
-                .btn {
-                    margin-top: 25px;
-                    display: flex;
-                    justify-content: center;
-                    border-radius: 35px;
-
-                    a {
-                        padding: 15px 40px;
->>>>>>> f81149a8a37fb51d88c511103b9386c80f1e4b65
                     }
                 }
             }
 
-<<<<<<< HEAD
 
+            
             // fourth page container
             .thodarbugal-container {
-                padding: 158px 80px;
 
                 .inner-thodarbugal-container {
                     .blur-rectangle {
                         width: 100%;
-                        max-width: 1190px;
                         background-color: rgba(0, 0, 0, 0.521);
-                        padding: 120px 100px;
+                        padding: 120px 130px;
                         text-align: center;
 
                         .contactTitle {
@@ -429,7 +423,7 @@ body {
 
                             .contactDetails {
                                 display: flex;
-                                justify-content: space-around;
+                                justify-content: space-between;
                                 padding-top: 58px;
 
                                 .mobile {
@@ -474,8 +468,6 @@ body {
 
                             .form {
                                 padding-top: 85px;
-                                max-width: 620px;
-                                margin: auto;
 
                                 form {
                                     color: white;
@@ -483,7 +475,7 @@ body {
                                     .nameDiv,
                                     .detailsDiv {
                                         display: flex;
-                                        justify-content: space-around;
+                                        justify-content: space-between;
 
                                         .inputContainer {
                                             max-width: 300px;
@@ -516,7 +508,6 @@ body {
 
                                     .btns {
                                         position: relative;
-                                        max-width: 620px;
 
                                         .full-width {
 
@@ -574,51 +565,11 @@ body {
                         a{
                             padding-left: 5px;
                             text-decoration: none;
-=======
-            .general-rules {
-                max-width: 980px;
-                width: 100%;
-                margin: auto;
-                text-align: start;
-                color: var(--font-color);
-                padding-top: 30px;
-
-                ol {
-                    padding-left: 40px;
-
-                    li {
-                        font-size: 16px;
-                        line-height: 30px;
-                        font-weight: 500;
-                        color: var(--font-color);
-                    }
-                }
-
-                .heading {
-                    h1 {
-                        text-align: center;
-                        font-size: 30px;
-                        font-weight: 700;
-                        line-height: 79px;
-                        color: var(--font-color);
-                    }
-                }
-
-                .round-1,
-                .round-2 {
-                    .heading {
-                        h2 {
-                            line-height: 79px;
-                            text-align: center;
-                            font-size: 30px;
-                            font-weight: 700;
-                            color: var(--font-color);
->>>>>>> f81149a8a37fb51d88c511103b9386c80f1e4b65
                         }
                     }
                 }
-
             }
+
 
 
 
@@ -632,18 +583,6 @@ body {
 
 
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-// media queries
-=======
->>>>>>> f81149a8a37fb51d88c511103b9386c80f1e4b65
 @media screen and (max-width : 1280px) {
 
     body {

@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Noto Sans Tamil', sans-serif;
-<<<<<<< HEAD
-=======
 }
 ::-webkit-scrollbar {
   display: none;
@@ -21,7 +19,7 @@
   display: flex;
   justify-content: space-between;
 }
-a {
+.button-props {
   padding: 10px;
   background-color: black;
   color: #ffff74;
@@ -29,12 +27,11 @@ a {
   text-decoration: none;
   border: 1px solid black;
 }
-a:hover {
+.button-props:hover {
   background-color: #ffff74;
   border: 1px solid black;
   transition: 0.2s;
   color: black;
->>>>>>> f81149a8a37fb51d88c511103b9386c80f1e4b65
 }
 body {
   background: url(/images/background.jpg);
@@ -42,6 +39,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  font-family: 'Noto Sans Tamil', sans-serif;
 }
 body .main-container .header {
   position: fixed;
@@ -115,15 +113,10 @@ body .main-container .section {
 }
 body .main-container .section .content {
   display: none;
-  max-width: 800px;
+  max-width: 940px;
   width: 100%;
   margin: auto;
-<<<<<<< HEAD
-  padding: 90px 0;
-  display: none;
-=======
   padding: 30px 0;
->>>>>>> f81149a8a37fb51d88c511103b9386c80f1e4b65
 }
 body .main-container .section .content .thirukural {
   max-width: 580px;
@@ -163,6 +156,20 @@ body .main-container .section .content .center .tamilum {
   font-family: poppins-extralight, sans-serif;
   line-height: 94px;
   color: #fff;
+}
+body .main-container .section .content .btn a {
+  padding: 10px;
+  background-color: black;
+  color: #ffff74;
+  border-radius: 25px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+body .main-container .section .content .btn a:hover {
+  background-color: #ffff74;
+  border: 1px solid black;
+  transition: 0.2s;
+  color: black;
 }
 body .main-container .section .content.active {
   display: block;
@@ -204,9 +211,20 @@ body .main-container .section .nokkam .btn {
 }
 body .main-container .section .nokkam .btn a {
   padding: 15px 40px;
+  padding: 10px;
+  background-color: black;
+  color: #ffff74;
+  border-radius: 25px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+body .main-container .section .nokkam .btn a:hover {
+  background-color: #ffff74;
+  border: 1px solid black;
+  transition: 0.2s;
+  color: black;
 }
 body .main-container .section .general-rules {
-  max-width: 980px;
   width: 100%;
   margin: auto;
   text-align: start;
@@ -237,13 +255,9 @@ body .main-container .section .general-rules .round-2 .heading h2 {
   font-weight: 700;
   color: var(--font-color);
 }
-body .main-container .section .overall-nizhalchineral {
-  display: block;
-}
 body .main-container .section .overall-nizhalchineral .nizhalchineral-section {
   display: flex;
   align-self: start;
-  padding: 82px 0px 0px 160px;
 }
 body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section {
   padding-top: 30px;
@@ -305,14 +319,10 @@ body .main-container .section .overall-nizhalchineral .outer-bottom .bottom-line
   height: 1px;
   background-color: white;
 }
-body .main-container .section .thodarbugal-container {
-  padding: 158px 80px;
-}
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle {
   width: 100%;
-  max-width: 1190px;
   background-color: rgba(0, 0, 0, 0.521);
-  padding: 120px 100px;
+  padding: 120px 130px;
   text-align: center;
 }
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .titleContactName {
@@ -323,7 +333,7 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
 }
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 58px;
 }
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .mobile .mobileNumber {
@@ -354,8 +364,6 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
 }
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form {
   padding-top: 85px;
-  max-width: 620px;
-  margin: auto;
 }
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form {
   color: white;
@@ -363,7 +371,7 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv,
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer,
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer {
@@ -390,7 +398,6 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
 }
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns {
   position: relative;
-  max-width: 620px;
 }
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width label {
   display: block;
