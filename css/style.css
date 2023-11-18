@@ -19,15 +19,16 @@
   display: flex;
   justify-content: space-between;
 }
-a {
+.button-props {
   padding: 10px;
   background-color: black;
   color: #ffff74;
   border-radius: 25px;
   text-decoration: none;
   border: 1px solid black;
+  margin-top: 25px;
 }
-a:hover {
+.button-props:hover {
   background-color: #ffff74;
   border: 1px solid black;
   transition: 0.2s;
@@ -39,6 +40,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+body .main-container {
+  background-color: rgba(0, 0, 0, 0.521);
 }
 body .main-container .header {
   position: fixed;
@@ -110,6 +114,11 @@ body .main-container .section {
   background-color: rgba(0, 0, 0, 0.521);
   background-size: cover;
 }
+@media screen and (max-width: 1280px) {
+  body .main-container .section {
+    margin-top: 120px;
+  }
+}
 body .main-container .section .content {
   display: none;
   max-width: 800px;
@@ -156,6 +165,21 @@ body .main-container .section .content .center .tamilum {
   line-height: 94px;
   color: #fff;
 }
+body .main-container .section .content .btn a {
+  padding: 10px;
+  background-color: black;
+  color: #ffff74;
+  border-radius: 25px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-top: 25px;
+}
+body .main-container .section .content .btn a:hover {
+  background-color: #ffff74;
+  border: 1px solid black;
+  transition: 0.2s;
+  color: black;
+}
 body .main-container .section .content.active {
   display: block;
 }
@@ -185,6 +209,7 @@ body .main-container .section .nokkam .description {
 }
 body .main-container .section .nokkam .description p {
   font-size: 16px;
+  line-height: 25px;
   font-weight: 400;
   color: var(--font-color);
 }
@@ -309,13 +334,13 @@ body .main-container .section .general-rules .round-2 .heading h2 {
   body .main-container .section {
     width: 100%;
     margin: auto;
+    margin-top: 160px;
     background-color: rgba(0, 0, 0, 0.521);
   }
   body .main-container .section .content {
     max-width: 800px;
     width: 100%;
     margin: auto;
-    padding: 90px 0;
   }
   body .main-container .section .content .thirukural {
     max-width: 580px;
@@ -355,39 +380,6 @@ body .main-container .section .general-rules .round-2 .heading h2 {
     font-family: poppins-extralight, sans-serif;
     line-height: 94px;
     color: #fff;
-  }
-  body .main-container .section .content .btn {
-    max-width: 500px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  body .main-container .section .content .btn .rule-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .rule-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
-  }
-  body .main-container .section .content .btn .save-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .save-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -469,14 +461,11 @@ body .main-container .section .general-rules .round-2 .heading h2 {
   }
   body .main-container .section {
     width: 100%;
-    margin: auto;
     background-color: rgba(0, 0, 0, 0.521);
   }
   body .main-container .section .content {
-    max-width: 800px;
+    max-width: 700px;
     width: 100%;
-    margin: auto;
-    padding: 90px 0;
   }
   body .main-container .section .content .thirukural {
     max-width: 580px;
@@ -516,39 +505,6 @@ body .main-container .section .general-rules .round-2 .heading h2 {
     font-family: poppins-extralight, sans-serif;
     line-height: 94px;
     color: #fff;
-  }
-  body .main-container .section .content .btn {
-    max-width: 500px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  body .main-container .section .content .btn .rule-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .rule-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
-  }
-  body .main-container .section .content .btn .save-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .save-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
   }
 }
 @media screen and (max-width: 768px) {
@@ -608,14 +564,13 @@ body .main-container .section .general-rules .round-2 .heading h2 {
   }
   body .main-container .section {
     width: 100%;
-    margin: auto;
     background-color: rgba(0, 0, 0, 0.521);
+    margin-top: 119px;
   }
   body .main-container .section .content {
-    max-width: 800px;
+    max-width: 630px;
     width: 100%;
     margin: auto;
-    padding: 90px 20px;
   }
   body .main-container .section .content .thirukural {
     max-width: 530px;
@@ -656,39 +611,6 @@ body .main-container .section .general-rules .round-2 .heading h2 {
     font-family: poppins-extralight, sans-serif;
     line-height: 94px;
     color: #fff;
-  }
-  body .main-container .section .content .btn {
-    max-width: 500px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  body .main-container .section .content .btn .rule-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .rule-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
-  }
-  body .main-container .section .content .btn .save-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .save-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
   }
 }
 @media screen and (max-width: 580px) {
@@ -748,14 +670,13 @@ body .main-container .section .general-rules .round-2 .heading h2 {
   }
   body .main-container .section {
     width: 100%;
-    margin: auto;
     background-color: rgba(0, 0, 0, 0.521);
   }
   body .main-container .section .content {
-    max-width: 800px;
+    max-width: 400px;
     width: 100%;
     margin: auto;
-    padding: 60px 20px;
+    padding: 0;
   }
   body .main-container .section .content .thirukural {
     max-width: 530px;
@@ -800,38 +721,22 @@ body .main-container .section .general-rules .round-2 .heading h2 {
   }
   body .main-container .section .content .btn {
     max-width: 500px;
-    width: 100%;
-    margin: auto;
-    display: flex;
     flex-direction: column;
     text-align: center;
   }
   body .main-container .section .content .btn .rule-btn {
     padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    margin-bottom: 10px;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .rule-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
   }
   body .main-container .section .content .btn .save-btn {
     padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    margin-bottom: 10px;
-    border: 1px solid black;
   }
-  body .main-container .section .content .btn .save-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
+}
+@media screen and (max-width: 375px) {
+  body .main-container .section .nokkam .description {
+    padding: 0;
+  }
+  .content {
+    max-width: 340px !important;
+    width: 100%;
   }
 }
