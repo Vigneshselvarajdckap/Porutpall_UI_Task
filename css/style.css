@@ -38,6 +38,7 @@ body {
   margin: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   font-family: 'Noto Sans Tamil', sans-serif;
 }
@@ -116,7 +117,7 @@ body .main-container .section .content {
   max-width: 940px;
   width: 100%;
   margin: auto;
-  padding: 30px 0;
+  padding: 60px 0;
 }
 body .main-container .section .content .thirukural {
   max-width: 580px;
@@ -313,7 +314,7 @@ body .main-container .section .overall-nizhalchineral .nizhalchineral-section .e
   max-width: 310px;
 }
 body .main-container .section .overall-nizhalchineral .outer-bottom {
-  padding: 100px 80px;
+  padding: 100px 0;
 }
 body .main-container .section .overall-nizhalchineral .outer-bottom .bottom-line {
   height: 1px;
@@ -396,9 +397,6 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer input:hover {
   border: 1px solid #fff76a;
 }
-body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns {
-  position: relative;
-}
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width label {
   display: block;
   padding-bottom: 18px;
@@ -412,6 +410,7 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
   border: 1px solid #fff76a;
 }
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width .submitBtn {
+  margin-top: -7px;
   background: #fff76a;
   width: 100%;
   height: 52px;
@@ -419,9 +418,6 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
   font-size: 22px;
   font-weight: 500;
   text-align: center;
-  position: absolute;
-  right: 0;
-  bottom: 6px;
 }
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width .submitBtn:hover {
   background: transparent;
@@ -437,36 +433,15 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
   text-decoration: none;
 }
 @media screen and (max-width: 1280px) {
-  body {
-    background: url(/images/background.jpg);
-    margin: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  body .main-container .header {
-    width: 100%;
-    background-color: black;
-  }
   body .main-container .header .header-inner-section {
     max-width: 1000px;
-    width: 100%;
-    margin: auto;
-    display: block;
+    flex-direction: column;
   }
   body .main-container .header .header-inner-section .logo-container {
     max-width: 1000px;
-    width: 100%;
   }
   body .main-container .header .header-inner-section .logo-container .logo {
     max-width: 1000px;
-    width: 100%;
-    padding: 26px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  body .main-container .header .header-inner-section .logo-container .logo .sub-logo img {
-    padding-right: 10px;
   }
   body .main-container .header .header-inner-section .logo-container .logo .social-media-link {
     display: block;
@@ -481,138 +456,32 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
     height: 1px;
     background-color: #ffff74;
   }
-  body .main-container .header .header-inner-section .bar-icon {
-    display: none;
-  }
   body .main-container .header .header-inner-section .navigation {
     max-width: 800px;
     width: 100%;
     margin: auto;
-  }
-  body .main-container .header .header-inner-section .navigation ul {
-    display: flex;
-    justify-content: space-between;
   }
   body .main-container .header .header-inner-section .navigation ul li {
     list-style: none;
     padding: 0;
     margin-right: 25px;
     line-height: 50px;
-    font-size: 13px;
-    font-weight: 400px;
-    color: #fff;
-  }
-  body .main-container .header .header-inner-section .navigation ul li:hover {
-    cursor: pointer;
-    color: #ffff74;
   }
   body .main-container .header .header-inner-section .social-media-link {
-    max-width: 75px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
     display: none;
   }
   body .main-container .section {
-    width: 100%;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.521);
+    margin-top: 111px;
   }
   body .main-container .section .content {
-    max-width: 800px;
-    width: 100%;
-    margin: auto;
     padding: 90px 0;
-  }
-  body .main-container .section .content .thirukural {
-    max-width: 580px;
-    width: 100%;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: poppins-extralight, sans-serif;
-    line-height: 28px;
-    color: #fff;
-    padding-bottom: 40px;
-  }
-  body .main-container .section .content .center {
-    text-align: center;
-  }
-  body .main-container .section .content .center .about-dckap {
-    letter-spacing: 0.8px;
-    max-width: 800px;
-    width: 100%;
-    margin: auto;
-    font-size: 28px;
-    font-weight: 700;
-    font-family: poppins-extralight, sans-serif;
-    color: #fff;
-    padding-bottom: 40px;
-  }
-  body .main-container .section .content .center .heading {
-    text-align: center;
-    font-size: 72px;
-    font-weight: 700;
-    font-family: poppins-extralight, sans-serif;
-    line-height: 94px;
-    color: #fff;
-  }
-  body .main-container .section .content .center .tamilum {
-    font-size: 34px;
-    font-weight: 700;
-    font-family: poppins-extralight, sans-serif;
-    line-height: 94px;
-    color: #fff;
-  }
-  body .main-container .section .content .btn {
-    max-width: 500px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  body .main-container .section .content .btn .rule-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .rule-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
-  }
-  body .main-container .section .content .btn .save-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .save-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
   }
 }
 @media screen and (max-width: 1024px) {
-  body {
-    background: url(/images/background.jpg);
-    margin: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  body .main-container .header {
-    width: 100%;
-    background-color: black;
-  }
   body .main-container .header .header-inner-section {
     max-width: 730px;
     width: 100%;
-    margin: auto;
-    display: block;
   }
   body .main-container .header .header-inner-section .logo-container {
     max-width: 730px;
@@ -629,61 +498,15 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
   body .main-container .header .header-inner-section .logo-container .logo .sub-logo img {
     padding-right: 10px;
   }
-  body .main-container .header .header-inner-section .logo-container .logo .social-media-link {
-    display: block;
-    max-width: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  body .main-container .header .header-inner-section .line-small-screen {
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: #ffff74;
-  }
-  body .main-container .header .header-inner-section .bar-icon {
-    display: none;
-  }
   body .main-container .header .header-inner-section .navigation {
     max-width: 600px;
-    width: 100%;
-    margin: auto;
   }
   body .main-container .header .header-inner-section .navigation ul {
     display: flex;
     justify-content: space-between;
   }
-  body .main-container .header .header-inner-section .navigation ul li {
-    list-style: none;
-    padding: 0;
-    margin-right: 25px;
-    line-height: 50px;
-    font-size: 13px;
-    font-weight: 400px;
-    color: #fff;
-  }
-  body .main-container .header .header-inner-section .navigation ul li:hover {
-    cursor: pointer;
-    color: #ffff74;
-  }
-  body .main-container .header .header-inner-section .social-media-link {
-    max-width: 75px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    display: none;
-  }
-  body .main-container .section {
-    width: 100%;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.521);
-  }
   body .main-container .section .content {
     max-width: 800px;
-    width: 100%;
-    margin: auto;
-    padding: 90px 0;
   }
   body .main-container .section .content .thirukural {
     max-width: 580px;
@@ -695,106 +518,15 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
     color: #fff;
     padding-bottom: 40px;
   }
-  body .main-container .section .content .center {
-    text-align: center;
-  }
-  body .main-container .section .content .center .about-dckap {
-    letter-spacing: 0.8px;
-    max-width: 800px;
-    width: 100%;
-    margin: auto;
-    font-size: 28px;
-    font-weight: 700;
-    font-family: poppins-extralight, sans-serif;
-    color: #fff;
-    padding-bottom: 40px;
-  }
-  body .main-container .section .content .center .heading {
-    text-align: center;
-    font-size: 72px;
-    font-weight: 700;
-    font-family: poppins-extralight, sans-serif;
-    line-height: 94px;
-    color: #fff;
-  }
-  body .main-container .section .content .center .tamilum {
-    font-size: 34px;
-    font-weight: 700;
-    font-family: poppins-extralight, sans-serif;
-    line-height: 94px;
-    color: #fff;
-  }
-  body .main-container .section .content .btn {
-    max-width: 500px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  body .main-container .section .content .btn .rule-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .rule-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
-  }
-  body .main-container .section .content .btn .save-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .save-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
-  }
 }
 @media screen and (max-width: 768px) {
-  body {
-    background: url(/images/background.jpg);
-    margin: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
   body .main-container {
     max-width: 768px;
-    width: 100%;
-    margin: auto;
   }
   body .main-container .header {
     width: 100%;
     background-color: black;
     padding: 0 20px;
-  }
-  body .main-container .header .header-inner-section {
-    max-width: 730px;
-    width: 100%;
-    margin: auto;
-    display: block;
-  }
-  body .main-container .header .header-inner-section .logo-container {
-    max-width: 730px;
-    width: 100%;
-  }
-  body .main-container .header .header-inner-section .logo-container .logo {
-    max-width: 730px;
-    width: 100%;
-    padding: 26px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  body .main-container .header .header-inner-section .logo-container .logo .sub-logo img {
-    padding-right: 10px;
   }
   body .main-container .header .header-inner-section .logo-container .logo .social-media-link {
     display: none;
@@ -812,233 +544,16 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
   }
   body .main-container .header .header-inner-section .navigation {
     display: none;
-  }
-  body .main-container .section {
-    width: 100%;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.521);
-  }
-  body .main-container .section .content {
-    max-width: 800px;
-    width: 100%;
-    margin: auto;
-    padding: 90px 20px;
   }
   body .main-container .section .content .thirukural {
     max-width: 530px;
     width: 100%;
     margin: auto;
     font-size: 18px;
-    font-weight: 700;
-    font-family: poppins-extralight, sans-serif;
-    line-height: 28px;
-    color: #fff;
-    padding-bottom: 40px;
-  }
-  body .main-container .section .content .center {
-    text-align: center;
-  }
-  body .main-container .section .content .center .about-dckap {
-    letter-spacing: 0.8px;
-    max-width: 800px;
-    width: 100%;
-    margin: auto;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: poppins-extralight, sans-serif;
-    color: #fff;
-    padding-bottom: 40px;
-  }
-  body .main-container .section .content .center .heading {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: poppins-extralight, sans-serif;
-    line-height: 94px;
-    color: #fff;
-  }
-  body .main-container .section .content .center .tamilum {
-    font-size: 30px;
-    font-weight: 700;
-    font-family: poppins-extralight, sans-serif;
-    line-height: 94px;
-    color: #fff;
-  }
-  body .main-container .section .content .btn {
-    max-width: 500px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  body .main-container .section .content .btn .rule-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .rule-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
-  }
-  body .main-container .section .content .btn .save-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .save-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
   }
 }
 @media screen and (max-width: 580px) {
-  body {
-    background: url(/images/background.jpg);
-    margin: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
   body .main-container {
     max-width: 580px;
-    width: 100%;
-    margin: auto;
-  }
-  body .main-container .header {
-    width: 100%;
-    background-color: black;
-    padding: 0 20px;
-  }
-  body .main-container .header .header-inner-section {
-    max-width: 730px;
-    width: 100%;
-    margin: auto;
-    display: block;
-  }
-  body .main-container .header .header-inner-section .logo-container {
-    max-width: 730px;
-    width: 100%;
-  }
-  body .main-container .header .header-inner-section .logo-container .logo {
-    max-width: 730px;
-    width: 100%;
-    padding: 26px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  body .main-container .header .header-inner-section .logo-container .logo .sub-logo {
-    display: none;
-  }
-  body .main-container .header .header-inner-section .logo-container .logo .social-media-link {
-    display: none;
-  }
-  body .main-container .header .header-inner-section .line-small-screen {
-    display: none;
-  }
-  body .main-container .header .header-inner-section .bar-icon {
-    display: block;
-    padding: 20px;
-  }
-  body .main-container .header .header-inner-section .bar-icon i {
-    font-size: 24px;
-    color: #fff;
-  }
-  body .main-container .header .header-inner-section .navigation {
-    display: none;
-  }
-  body .main-container .section {
-    width: 100%;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.521);
-  }
-  body .main-container .section .content {
-    max-width: 800px;
-    width: 100%;
-    margin: auto;
-    padding: 60px 20px;
-  }
-  body .main-container .section .content .thirukural {
-    max-width: 530px;
-    width: 100%;
-    margin: auto;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: poppins-extralight, sans-serif;
-    line-height: 28px;
-    color: #fff;
-    padding-bottom: 30px;
-  }
-  body .main-container .section .content .center {
-    text-align: center;
-    padding-bottom: 30px;
-  }
-  body .main-container .section .content .center .about-dckap {
-    letter-spacing: 0.8px;
-    max-width: 800px;
-    width: 100%;
-    margin: auto;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: poppins-extralight, sans-serif;
-    color: #fff;
-    padding-bottom: 40px;
-  }
-  body .main-container .section .content .center .heading {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 900;
-    font-family: poppins-extralight, sans-serif;
-    line-height: 20px;
-    color: #fff;
-  }
-  body .main-container .section .content .center .tamilum {
-    font-size: 24px;
-    font-weight: 700;
-    font-family: poppins-extralight, sans-serif;
-    line-height: 94px;
-    color: #fff;
-  }
-  body .main-container .section .content .btn {
-    max-width: 500px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  body .main-container .section .content .btn .rule-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    margin-bottom: 10px;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .rule-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
-  }
-  body .main-container .section .content .btn .save-btn {
-    padding: 10px;
-    background-color: black;
-    color: #ffff74;
-    border-radius: 25px;
-    text-decoration: none;
-    margin-bottom: 10px;
-    border: 1px solid black;
-  }
-  body .main-container .section .content .btn .save-btn:hover {
-    background-color: #ffff74;
-    border: 1px solid black;
-    color: black;
   }
 }
