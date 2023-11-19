@@ -97,6 +97,7 @@ body {
                 }
 
                 .bar-icon {
+                    width: 60px;
                     display: none;
                 }
 
@@ -194,8 +195,9 @@ body {
                         color: #fff;
                     }
                 }
-                .btn{
-                    a{
+
+                .btn {
+                    a {
                         .button-props;
                     }
                 }
@@ -301,8 +303,8 @@ body {
 
             }
 
-             // third page styles
-             .overall-nizhalchineral {
+            // third page styles
+            .overall-nizhalchineral {
                 // display: block;
 
                 .nizhalchineral-section {
@@ -565,11 +567,11 @@ body {
                         }
                     }
 
-                    .social-links{
+                    .social-links {
                         text-align: center;
                         padding-top: 48px;
 
-                        a{
+                        a {
                             padding-left: 5px;
                             text-decoration: none;
                         }
@@ -738,6 +740,7 @@ body {
                 padding: 0 20px;
 
                 .header-inner-section {
+                    position: relative;
 
                     .logo-container {
 
@@ -764,7 +767,20 @@ body {
                     }
 
                     .navigation {
+                        position: absolute;
+                        top: 118px;
+                        background-color: var(--primary-color);
+                        max-width: 100%;
+                        height: 100vh;
                         display: none;
+
+                        ul{
+                            flex-flow: column;
+                            align-items: center;
+                        }
+                    }
+                    .navigation.show{
+                        display: block;
                     }
                 }
             }
@@ -800,12 +816,12 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-    body .main-container .section .nokkam .description{
+    body .main-container .section .nokkam .description {
         padding: 0;
     }
-    .content{
+
+    .content {
         max-width: 340px !important;
         width: 100%;
     }
 }
-
