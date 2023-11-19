@@ -1,6 +1,7 @@
 const mainContainer = document.querySelector('.main-container')
 const btns = document.querySelectorAll('.link')
-const content = document.querySelectorAll('.content')
+const content = document.querySelectorAll('.content');
+
 
 mainContainer.addEventListener("click", function (e) {
     const id = e.target.dataset.id;

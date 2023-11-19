@@ -46,7 +46,9 @@ body {
     margin: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
+    font-family: 'Noto Sans Tamil', sans-serif;
 
     .main-container {
         background-color: rgba(0, 0, 0, 0.521);
@@ -144,10 +146,10 @@ body {
 
             .content {
                 display: none;
-                max-width: 800px;
+                max-width: 940px;
                 width: 100%;
                 margin: auto;
-                padding: 30px 0;
+                padding: 60px 0;
 
                 .thirukural {
                     max-width: 580px;
@@ -194,7 +196,7 @@ body {
                 }
                 .btn{
                     a{
-                        .button-props
+                        .button-props;
                     }
                 }
 
@@ -250,12 +252,13 @@ body {
 
                     a {
                         padding: 15px 40px;
+                        .button-props;
                     }
                 }
             }
 
             .general-rules {
-                max-width: 980px;
+                // max-width: 980px;
                 width: 100%;
                 margin: auto;
                 text-align: start;
@@ -297,6 +300,283 @@ body {
                 }
 
             }
+
+             // third page styles
+             .overall-nizhalchineral {
+                // display: block;
+
+                .nizhalchineral-section {
+                    display: flex;
+                    align-self: start;
+                    // padding: 82px 0px 0px 160px;
+
+                    .inner-nizhachineral-section {
+                        padding-top: 30px;
+
+
+
+                        .first-container-contents {
+                            color: white;
+                            width: 100%;
+                            max-width: 450px;
+
+                            .specialText {
+                                color: #fff76a;
+                            }
+
+                            .titleName {
+                                color: #fff;
+                                font-size: 38px;
+                                line-height: 36px;
+                                font-weight: 600;
+                                // padding-bottom: 95px;
+                                padding-bottom: 45px;
+                            }
+
+                            .nizhalchiDate {
+                                .eventDate {
+                                    font-size: 28px;
+                                    font-weight: bold;
+                                    line-height: 40px;
+
+                                }
+                            }
+
+                            .nizhalchiTimings {
+                                .eventTime {
+                                    font-size: 28px;
+                                    font-weight: bold;
+                                    line-height: 32px;
+                                    padding: 45px 0px;
+                                }
+                            }
+
+                            .nizhalchiLocation {
+                                .venue {
+                                    font-size: 28px;
+                                    font-weight: bold;
+                                    line-height: 40px;
+                                }
+                            }
+
+
+                        }
+
+                    }
+
+                    .eventDetails-section {
+                        margin-left: 90px;
+
+                        .eventDetailsContents {
+                            table {
+                                color: white;
+                                border-collapse: collapse;
+
+                                .tableRow>:first-child {
+                                    border-right: 1px solid white;
+                                    padding-right: 20px;
+                                }
+
+                                .tableRow>:nth-child(2) {
+                                    padding-left: 40px;
+                                }
+
+
+
+                                .tableRow {
+
+                                    .tableData {
+                                        font-size: 16px;
+                                        height: 92px;
+
+                                        // width: 100%;
+                                        max-width: 310px;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+                .outer-bottom {
+                    padding: 100px 0;
+
+
+                    .bottom-line {
+                        height: 1px;
+                        background-color: white;
+
+                    }
+                }
+            }
+
+
+
+            // fourth page container
+            .thodarbugal-container {
+
+                .inner-thodarbugal-container {
+                    .blur-rectangle {
+                        width: 100%;
+                        background-color: rgba(0, 0, 0, 0.521);
+                        padding: 120px 130px;
+                        text-align: center;
+
+                        .contactTitle {
+                            .titleContactName {
+                                font-size: 41px;
+                                color: white;
+                                line-height: 46px;
+                                font-weight: 700px;
+                            }
+
+                            .contactDetails {
+                                display: flex;
+                                justify-content: space-between;
+                                padding-top: 58px;
+
+                                .mobile {
+                                    .mobileNumber {
+                                        color: #fff76a;
+                                        font-size: 21px;
+                                        line-height: 24px;
+                                        padding-bottom: 15px;
+                                        font-weight: 700px;
+                                    }
+
+                                    .numberText {
+                                        color: white;
+                                        font-size: 16px;
+                                        line-height: 18px;
+                                        font-weight: 500px;
+
+                                    }
+
+                                }
+
+                                .email {
+                                    .mail {
+                                        .mailAddress {
+                                            color: #fff76a;
+                                            font-size: 21px;
+                                            line-height: 24px;
+                                            padding-bottom: 15px;
+                                            font-weight: 700px;
+                                        }
+
+                                        .emailValue {
+                                            color: white;
+                                            font-size: 16px;
+                                            line-height: 18px;
+                                            font-weight: 500;
+                                        }
+                                    }
+
+                                }
+                            }
+
+                            .form {
+                                padding-top: 85px;
+
+                                form {
+                                    color: white;
+
+                                    .nameDiv,
+                                    .detailsDiv {
+                                        display: flex;
+                                        justify-content: space-between;
+
+                                        .inputContainer {
+                                            max-width: 300px;
+                                            flex: 1;
+
+                                            label {
+                                                display: block;
+
+                                            }
+
+                                            input {
+                                                width: 100%;
+                                                max-width: 300px;
+                                                height: 40px;
+                                                background-color: transparent;
+                                                border: 1px solid #fff;
+                                                margin: 18px 0px 55px 0px;
+                                                color: white;
+
+
+                                                &:hover {
+                                                    border: 1px solid #fff76a;
+
+                                                }
+                                            }
+
+
+                                        }
+                                    }
+
+                                    .btns {
+
+                                        .full-width {
+
+                                            label {
+                                                display: block;
+                                                padding-bottom: 18px;
+                                            }
+
+                                            textarea {
+                                                width: 100%;
+                                                background-color: transparent;
+                                                color: white;
+
+                                                &:hover {
+                                                    border: 1px solid #fff76a;
+                                                }
+                                            }
+
+                                            .submitBtn {
+                                                margin-top: -7px;
+                                                background: #fff76a;
+                                                width: 100%;
+                                                height: 52px;
+                                                border: 0;
+                                                font-size: 22px;
+                                                font-weight: 500;
+                                                text-align: center;
+
+
+                                                &:hover {
+                                                    background: transparent;
+                                                    border: 1px solid #fff76a;
+                                                    color: #fff76a;
+                                                }
+
+                                            }
+
+                                        }
+
+                                    }
+
+
+
+                                }
+                            }
+                        }
+                    }
+
+                    .social-links{
+                        text-align: center;
+                        padding-top: 48px;
+
+                        a{
+                            padding-left: 5px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
         }
     }
 }
@@ -304,42 +584,23 @@ body {
 
 
 
-@media screen and (max-width : 1280px) {
+@media screen and (max-width:1280px) {
 
     body {
-        background: url(/images/background.jpg);
-        margin: auto;
-        background-repeat: no-repeat;
-        background-size: cover;
 
         .main-container {
             .header {
-                width: 100%;
-                background-color: black;
 
                 .header-inner-section {
                     max-width: 1000px;
-                    width: 100%;
-                    margin: auto;
-                    display: block;
+                    flex-direction: column;
 
                     .logo-container {
                         max-width: 1000px;
-                        width: 100%;
 
                         .logo {
                             max-width: 1000px;
-                            width: 100%;
-                            padding: 26px 0;
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
 
-                            .sub-logo {
-                                img {
-                                    padding-right: 10px;
-                                }
-                            }
 
                             .social-media-link {
                                 display: block;
@@ -347,6 +608,7 @@ body {
                                 width: 100%;
                                 display: flex;
                                 justify-content: space-between;
+
                             }
                         }
                     }
@@ -358,100 +620,35 @@ body {
                         background-color: rgb(255, 255, 116);
                     }
 
-                    .bar-icon {
-                        display: none;
-                    }
-
                     .navigation {
                         max-width: 800px;
                         width: 100%;
                         margin: auto;
 
                         ul {
-                            display: flex;
-                            justify-content: space-between;
 
                             li {
                                 list-style: none;
                                 padding: 0;
                                 margin-right: 25px;
                                 line-height: 50px;
-                                font-size: 13px;
-                                font-weight: 400px;
-                                color: #fff;
-
-                                &:hover {
-                                    cursor: pointer;
-                                    color: rgb(255, 255, 116);
-                                }
                             }
                         }
                     }
 
                     .social-media-link {
-                        max-width: 75px;
-                        width: 100%;
-                        display: flex;
-                        justify-content: space-between;
                         display: none;
                     }
                 }
             }
 
             .section {
-                width: 100%;
                 margin: auto;
-                margin-top: 160px;
-                background-color: rgba(0, 0, 0, 0.521);
+                margin-top: 111px;
 
                 .content {
-                    max-width: 800px;
-                    width: 100%;
-                    margin: auto;
+                    padding: 90px 0;
 
-                    .thirukural {
-                        max-width: 580px;
-                        width: 100%;
-                        font-size: 20px;
-                        font-weight: 700;
-                        font-family: poppins-extralight, sans-serif;
-                        line-height: 28px;
-                        color: #fff;
-                        padding-bottom: 40px;
-                    }
-
-                    .center {
-                        text-align: center;
-
-                        .about-dckap {
-                            letter-spacing: 0.8px;
-                            max-width: 800px;
-                            width: 100%;
-                            margin: auto;
-                            font-size: 28px;
-                            font-weight: 700;
-                            font-family: poppins-extralight, sans-serif;
-                            color: #fff;
-                            padding-bottom: 40px;
-                        }
-
-                        .heading {
-                            text-align: center;
-                            font-size: 72px;
-                            font-weight: 700;
-                            font-family: poppins-extralight, sans-serif;
-                            line-height: 94px;
-                            color: #fff;
-                        }
-
-                        .tamilum {
-                            font-size: 34px;
-                            font-weight: 700;
-                            font-family: poppins-extralight, sans-serif;
-                            line-height: 94px;
-                            color: #fff;
-                        }
-                    }
                 }
             }
         }
@@ -463,21 +660,13 @@ body {
 @media screen and (max-width : 1024px) {
 
     body {
-        background: url(/images/background.jpg);
-        margin: auto;
-        background-repeat: no-repeat;
-        background-size: cover;
 
         .main-container {
             .header {
-                width: 100%;
-                background-color: black;
 
                 .header-inner-section {
                     max-width: 730px;
                     width: 100%;
-                    margin: auto;
-                    display: block;
 
                     .logo-container {
                         max-width: 730px;
@@ -496,71 +685,26 @@ body {
                                     padding-right: 10px;
                                 }
                             }
-
-                            .social-media-link {
-                                display: block;
-                                max-width: 100px;
-                                width: 100%;
-                                display: flex;
-                                justify-content: space-between;
-                            }
                         }
                     }
 
-                    .line-small-screen {
-                        display: block;
-                        width: 100%;
-                        height: 1px;
-                        background-color: rgb(255, 255, 116);
-                    }
-
-                    .bar-icon {
-                        display: none;
-                    }
 
                     .navigation {
                         max-width: 600px;
-                        width: 100%;
-                        margin: auto;
 
                         ul {
                             display: flex;
                             justify-content: space-between;
 
-                            li {
-                                list-style: none;
-                                padding: 0;
-                                margin-right: 25px;
-                                line-height: 50px;
-                                font-size: 13px;
-                                font-weight: 400px;
-                                color: #fff;
-
-                                &:hover {
-                                    cursor: pointer;
-                                    color: rgb(255, 255, 116);
-                                }
-                            }
                         }
-                    }
-
-                    .social-media-link {
-                        max-width: 75px;
-                        width: 100%;
-                        display: flex;
-                        justify-content: space-between;
-                        display: none;
                     }
                 }
             }
 
             .section {
-                width: 100%;
-                background-color: rgba(0, 0, 0, 0.521);
 
                 .content {
-                    max-width: 700px;
-                    width: 100%;
+                    max-width: 800px;
 
                     .thirukural {
                         max-width: 580px;
@@ -571,39 +715,6 @@ body {
                         line-height: 28px;
                         color: #fff;
                         padding-bottom: 40px;
-                    }
-
-                    .center {
-                        text-align: center;
-
-                        .about-dckap {
-                            letter-spacing: 0.8px;
-                            max-width: 800px;
-                            width: 100%;
-                            margin: auto;
-                            font-size: 28px;
-                            font-weight: 700;
-                            font-family: poppins-extralight, sans-serif;
-                            color: #fff;
-                            padding-bottom: 40px;
-                        }
-
-                        .heading {
-                            text-align: center;
-                            font-size: 72px;
-                            font-weight: 700;
-                            font-family: poppins-extralight, sans-serif;
-                            line-height: 94px;
-                            color: #fff;
-                        }
-
-                        .tamilum {
-                            font-size: 34px;
-                            font-weight: 700;
-                            font-family: poppins-extralight, sans-serif;
-                            line-height: 94px;
-                            color: #fff;
-                        }
                     }
 
                 }
@@ -617,15 +728,9 @@ body {
 @media screen and (max-width : 768px) {
 
     body {
-        background: url(/images/background.jpg);
-        margin: auto;
-        background-repeat: no-repeat;
-        background-size: cover;
 
         .main-container {
             max-width: 768px;
-            width: 100%;
-            margin: auto;
 
             .header {
                 width: 100%;
@@ -633,28 +738,10 @@ body {
                 padding: 0 20px;
 
                 .header-inner-section {
-                    max-width: 730px;
-                    width: 100%;
-                    margin: auto;
-                    display: block;
 
                     .logo-container {
-                        max-width: 730px;
-                        width: 100%;
 
                         .logo {
-                            max-width: 730px;
-                            width: 100%;
-                            padding: 26px 0;
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-
-                            .sub-logo {
-                                img {
-                                    padding-right: 10px;
-                                }
-                            }
 
                             .social-media-link {
                                 display: none;
@@ -683,59 +770,14 @@ body {
             }
 
             .section {
-                width: 100%;
-                background-color: rgba(0, 0, 0, 0.521);
-                margin-top: 119px;
 
                 .content {
-                    max-width: 630px;
-                    width: 100%;
-                    margin: auto;
 
                     .thirukural {
-                        // text-align: center;
                         max-width: 530px;
                         width: 100%;
                         margin: auto;
                         font-size: 18px;
-                        font-weight: 700;
-                        font-family: poppins-extralight, sans-serif;
-                        line-height: 28px;
-                        color: #fff;
-                        padding-bottom: 40px;
-                    }
-
-                    .center {
-                        text-align: center;
-
-                        .about-dckap {
-                            letter-spacing: 0.8px;
-                            max-width: 800px;
-                            width: 100%;
-                            margin: auto;
-                            font-size: 20px;
-                            font-weight: 700;
-                            font-family: poppins-extralight, sans-serif;
-                            color: #fff;
-                            padding-bottom: 40px;
-                        }
-
-                        .heading {
-                            text-align: center;
-                            font-size: 40px;
-                            font-weight: 700;
-                            font-family: poppins-extralight, sans-serif;
-                            line-height: 94px;
-                            color: #fff;
-                        }
-
-                        .tamilum {
-                            font-size: 30px;
-                            font-weight: 700;
-                            font-family: poppins-extralight, sans-serif;
-                            line-height: 94px;
-                            color: #fff;
-                        }
                     }
                 }
             }
@@ -748,140 +790,11 @@ body {
 @media screen and (max-width : 580px) {
 
     body {
-        background: url(/images/background.jpg);
-        margin: auto;
-        background-repeat: no-repeat;
-        background-size: cover;
 
         .main-container {
             max-width: 580px;
-            width: 100%;
-            margin: auto;
 
-            .header {
-                width: 100%;
-                background-color: black;
-                padding: 0 20px;
 
-                .header-inner-section {
-                    max-width: 730px;
-                    width: 100%;
-                    margin: auto;
-                    display: block;
-
-                    .logo-container {
-                        max-width: 730px;
-                        width: 100%;
-
-                        .logo {
-                            max-width: 730px;
-                            width: 100%;
-                            padding: 26px 0;
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-
-                            .sub-logo {
-                                display: none;
-                            }
-
-                            .social-media-link {
-                                display: none;
-                            }
-                        }
-                    }
-
-                    .line-small-screen {
-                        display: none;
-                    }
-
-                    .bar-icon {
-                        display: block;
-                        padding: 20px;
-
-                        i {
-                            font-size: 24px;
-                            color: #fff;
-                        }
-                    }
-
-                    .navigation {
-                        display: none;
-                    }
-                }
-            }
-
-            .section {
-                width: 100%;
-                background-color: rgba(0, 0, 0, 0.521);
-
-                .content {
-                    max-width: 400px;
-                    width: 100%;
-                    margin: auto;
-                    padding: 0;
-                    .thirukural {
-                        // text-align: center;
-                        max-width: 530px;
-                        width: 100%;
-                        margin: auto;
-                        font-size: 16px;
-                        font-weight: 500;
-                        font-family: poppins-extralight, sans-serif;
-                        line-height: 28px;
-                        color: #fff;
-                        padding-bottom: 30px;
-                    }
-
-                    .center {
-                        text-align: center;
-                        padding-bottom: 30px;
-
-                        .about-dckap {
-                            letter-spacing: 0.8px;
-                            max-width: 800px;
-                            width: 100%;
-                            margin: auto;
-                            font-size: 20px;
-                            font-weight: 600;
-                            font-family: poppins-extralight, sans-serif;
-                            color: #fff;
-                            padding-bottom: 40px;
-                        }
-
-                        .heading {
-                            text-align: center;
-                            font-size: 30px;
-                            font-weight: 900;
-                            font-family: poppins-extralight, sans-serif;
-                            line-height: 20px;
-                            color: #fff;
-                        }
-
-                        .tamilum {
-                            font-size: 24px;
-                            font-weight: 700;
-                            font-family: poppins-extralight, sans-serif;
-                            line-height: 94px;
-                            color: #fff;
-                        }
-                    }
-
-                    .btn {
-                        max-width: 500px;
-                        flex-direction: column;
-                        text-align: center;
-
-                        .rule-btn {
-                            padding: 10px;
-                        }
-
-                        .save-btn {
-                            .rule-btn;
-                        }
-                    }
-                }
-            }
         }
     }
 }
