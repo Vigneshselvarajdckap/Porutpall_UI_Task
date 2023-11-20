@@ -445,6 +445,110 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
   padding-left: 5px;
   text-decoration: none;
 }
+body .main-container .section .thoguppugal {
+  max-width: 1440px;
+  width: 100%;
+}
+body .main-container .section .thoguppugal .thoguppugal-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+body .main-container .section .thoguppugal .thoguppugal-heading p {
+  font-size: 49px;
+  font-weight: 700;
+  color: var(--font-color);
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background {
+  max-width: 1190px;
+  width: 100%;
+  margin: auto;
+  padding: 55px 0;
+  text-align: center;
+  background-color: #000000b2;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department {
+  padding-bottom: 40px;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name {
+  max-width: 220px;
+  width: 100%;
+  margin: auto;
+  padding: 15px 0;
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--button-color);
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name span {
+  text-decoration: underline;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--font-color);
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p {
+  max-width: 220px;
+  width: 100%;
+  margin: auto;
+  padding: 47px 0px 24px 0px;
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--button-color);
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p span {
+  text-decoration: underline;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content {
+  max-width: 222px;
+  width: 100%;
+  margin: auto;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--font-color);
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name img {
+  width: 299px;
+  height: 187px;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p {
+  max-width: 300px;
+  width: 100%;
+  margin: auto;
+  padding: 47px 0px 24px 0px;
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--button-color);
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p span {
+  text-decoration: underline;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content {
+  max-width: 222px;
+  width: 100%;
+  margin: auto;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--font-color);
+}
 @media screen and (max-width: 1280px) {
   body .main-container .header .header-inner-section {
     max-width: 1000px;
