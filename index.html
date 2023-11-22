@@ -93,7 +93,7 @@
             </div>
         </header>
         <main class="section">
-            <section class="content active " id="mugappu">
+            <section class="content active" id="mugappu">
                 <div class="thirukural">
                     <p>பொருளென்னும் பொய்யா விளக்கம் இருளறுக்கும்
                         எண்ணிய தேயத்துச் சென்று.</p>
@@ -273,8 +273,6 @@
                             </table>
                         </div>
                     </div>
-
-
                 </div>
                 <div class="outer-bottom">
                     <div class="bottom-line"></div>
@@ -323,7 +321,7 @@
                                             <label for="">Email<span>*</span></label>
                                             <input name="email" id="email" class="input" type="text"
                                                 placeholder="Enter your email.." aria-required="false" maxlength="100"
-                                                autocomplete="off" value="" required>
+                                                pattern="^.+@.+\.[a-zA-Z]{2,63}$" autocomplete="off" value="" required>
                                         </div>
                                         <div class="inputContainer">
                                             <label for="">Subject</label>
@@ -343,12 +341,9 @@
                                             <button class="submitBtn">Submit <span>
                                                     <i class="fa-regular fa-paper-plane"></i>
                                                 </span></button>
-
                                         </div>
                                     </div>
-
                                 </form>
-
                             </div>
                         </div>
                     </div>
@@ -370,20 +365,35 @@
                     </div>
                 </div>
             </section>
-
-            <!-- thoguppugal section -->
+            <!-- thoguppuga section -->
             <section class="thoguppugal content" id="thoguppugal">
                 <div class="thoguppugal-heading">
                     <p>தொகுப்புகள்</p>
                 </div>
-                <div class="thoguppugal-peaple-background">
-                    <div class="right-department">
-                        <div class="profile-img-name">
-                            <img class="sokkan" src="images/Sokkan.webp" alt="sokkan image">
-                            <p class="profile-name"><span>என். சொக்கன்</span>
+                <div class="inner-container">
+                    <div class="card-main-container">
+                        <div class="img-name-cont">
+                            <div class="image-cont">
+                                <img class="image" src="images/kaleeljagir.webp" alt="sokkan image">
+                            </div>
+                            <p class="name"><a href="">கலீல் ஜாகீர்</a>
+                                (தொழில்நுட்பம்)</p>
+                        </div>
+                        <div class="guest-description">
+                            <p>ஆண்ட்ராய்டு செயலி உருவாக்குநர் - கணியம் அறக்கட்டளை
+                                நிறுவனர்களுள் ஒருவர்</p>
+                        </div>
+                    </div>
+
+                    <div class="card-main-container">
+                        <div class="img-name-cont">
+                            <div class="image-cont">
+                                <img class="image" src="images/Sokkan.webp" alt="sokkan image">
+                            </div>
+                            <p class="name"><a href="">என். சொக்கன்</a>
                                 (எழுத்துத் துறை)</p>
                         </div>
-                        <div class="right-department-content">
+                        <div class="guest-description">
                             <p>என். சொக்கன் என்ற பெயரில் எழுதும் நாகசுப்பிரமணியன் சொக்கநாதன் தெளிவான எழுத்தும் ஆழமான
                                 ஆய்வும் நிறைந்த தன்னுடைய நூல்களுக்காகத் தமிழகமெங்கும் நன்கு அறியப்பட்டுள்ளவர். புனைவு,
                                 வாழ்க்கை வரலாறு, நிறுவன வரலாறு, தன்னம்பிக்கை, சிறுவர் இலக்கியம் உள்ளிட்ட துறைகளில்
@@ -391,37 +401,25 @@
                             </p>
                         </div>
                     </div>
-                    <div class="peaple-flex-box">
-                        <div class="peaple-one">
-                            <div class="person-img-name">
-                                <img src="images/kaleeljagir.webp" alt="kaleel image">
-                                <p><span>கலீல் ஜாகீர்</span>
-                                    (தொழில்நுட்பம்)</p>
+
+                    <div class="card-main-container">
+                        <div class="img-name-cont">
+                            <div class="image-cont">
+                                <img class="image" src="images/Varshini.jpg" alt="sokkan image">
                             </div>
-                            <div class="right-department-content">
-                                <p>ஆண்ட்ராய்டு செயலி உருவாக்குநர் - கணியம் அறக்கட்டளை
-                                    நிறுவனர்களுள் ஒருவர்</p>
-                            </div>
+                            <p class="name"><a href="">வர்ஷினி பாகுலேயன்</a>
+                                (மின்னணு ஊடகம்)</p>
                         </div>
-                        <div class="peaple-two">
-                            <div class="person-img-name">
-                                <img src="images/Varshini.webp" alt="Varshini image    ">
-                                <p><span>வர்ஷினி பாகுலேயன்</span>
-                                    (மின்னணு ஊடகம்)</p>
-                            </div>
-                            <div class="right-department-content">
-                                <p>thislifeticket - வலையொலி தொகுப்பாளர்</p>
-                            </div>
+                        <div class="guest-description">
+                            <p>thislifeticket - வலையொலி தொகுப்பாளர்</p>
                         </div>
                     </div>
                 </div>
 
-          
             </section>
-
-
         </main>
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>
