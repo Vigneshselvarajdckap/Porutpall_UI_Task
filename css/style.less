@@ -175,7 +175,7 @@ body {
                     text-align: center;
 
                     .about-dckap {
-                        letter-spacing: 0.8px;
+                        // letter-spacing: 0.8px;
                         max-width: 800px;
                         width: 100%;
                         margin: auto;
@@ -183,6 +183,8 @@ body {
                         font-weight: 600;
                         color: #fff;
                         padding-bottom: 40px;
+                        line-height: 38px;
+
                     }
 
                     .heading {
@@ -223,7 +225,7 @@ body {
                 .heading1 {
 
                     h1 {
-                        font-size: 48px;
+                        font-size: 40px;
                         font-weight: 700;
                         line-height: 79px;
                         color: #fff76a;
@@ -286,7 +288,7 @@ body {
                 .heading {
                     h1 {
                         text-align: center;
-                        font-size: 48px;
+                        font-size: 40px;
                         font-weight: 700;
                         line-height: 79px;
                         color: #fff76a;
@@ -337,7 +339,7 @@ body {
                                 font-size: 38px;
                                 line-height: 36px;
                                 font-weight: 600;
-                                padding-bottom: 45px;
+                                padding-bottom: 35px;
                             }
 
                             .nizhalchiDate {
@@ -354,7 +356,7 @@ body {
                                     font-size: 24px;
                                     font-weight: bold;
                                     line-height: 32px;
-                                    padding: 45px 0px;
+                                    padding: 35px 0px;
                                 }
                             }
 
@@ -393,7 +395,7 @@ body {
                                 .tableRow {
 
                                     .tableData {
-                                        font-size: 16px;
+                                        font-size: 18px;
                                         height: 92px;
                                         max-width: 310px;
                                     }
@@ -432,31 +434,45 @@ body {
 
                         .contactTitle {
                             .titleContactName {
-                                font-size: 48px;
+                                font-size: 40px;
                                 color: #fff76a;
                                 line-height: 46px;
                                 font-weight: 700px;
                             }
 
                             .contactDetails {
-                                display: flex;
-                                justify-content: space-evenly;
-                                padding-top: 58px;
+                                // display: flex;
+                                // justify-content: space-evenly;
+                                padding-top: 50px;
+                                max-width: 630px;
+                                margin: 0 auto;
+                                /* display: flex; */
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
 
                                 .mobile {
+                                    display: inline;
+                                    text-align: left;
+                                    
+                                  
+
                                     .mobileNumber {
                                         color: #fff76a;
                                         font-size: 21px;
                                         line-height: 24px;
-                                        padding-bottom: 15px;
-                                        font-weight: 700px;
+                                        // padding-bottom: 15px;
+                                        font-weight: 700;
+                                        display: inline;
                                     }
 
                                     .numberText {
                                         color: white;
                                         font-size: 16px;
                                         line-height: 18px;
-                                        font-weight: 500px;
+                                        font-weight: 500;
+                                        padding-left: 10px;
+                                        display:inline;
+
 
                                     }
 
@@ -464,12 +480,15 @@ body {
 
                                 .email {
                                     .mail {
+                              
+
                                         .mailAddress {
                                             color: #fff76a;
                                             font-size: 21px;
                                             line-height: 24px;
-                                            padding-bottom: 15px;
-                                            font-weight: 700px;
+                                            // padding-bottom: 15px;
+                                            font-weight: 700;
+                                            display: inline;
                                         }
 
                                         .emailValue {
@@ -477,6 +496,9 @@ body {
                                             font-size: 16px;
                                             line-height: 18px;
                                             font-weight: 500;
+                                            padding-left: 10px;
+                                            display: inline;
+
                                         }
                                     }
 
@@ -484,7 +506,7 @@ body {
                             }
 
                             .form {
-                                padding-top: 85px;
+                                padding-top: 50px;
                                 max-width: 713px;
                                 text-align: center;
                                 margin: 0 auto;
@@ -612,7 +634,7 @@ body {
 
                     .social-links {
                         text-align: center;
-                        padding-top: 48px;
+                        padding-top: 40px;
 
                         a {
                             padding-left: 5px;
@@ -631,7 +653,7 @@ body {
 
                 .thoguppugal-heading {
                     p {
-                        font-size: 48px;
+                        font-size: 40px;
                         font-weight: 700;
                         color: #fff76a;
                     }
@@ -703,7 +725,7 @@ body {
 
 
 
-
+// media query for laptop screens
 @media screen and (max-width:1280px) {
 
     body {
@@ -784,7 +806,7 @@ body {
 }
 
 
-
+// media query for 1024px
 @media screen and(max-width:1024px) {
 
     body {
@@ -848,6 +870,16 @@ body {
 
                 }
 
+                .nokkam {
+
+                    .description {
+                        p {
+                            text-align: left;
+                        }
+                    }
+
+                }
+
                 .overall-nizhalchineral {
                     .nizhalchineral-section {
                         text-align: center;
@@ -876,6 +908,18 @@ body {
                             padding: 70px 60px;
 
                             .contactTitle {
+
+                                .contactDetails{
+                                    display: block;
+                                    padding-top: 40px;
+
+                                    // text-align: left;
+
+                                    .email{
+                                        padding-top: 20px;
+                                    }
+
+                                }
                                 .form {
                                     form {
 
@@ -935,7 +979,7 @@ body {
 }
 
 
-
+// media query for mobile screens
 @media screen and (max-width : 768px) {
 
     body {
@@ -959,7 +1003,7 @@ body {
 
                                 img {
                                     width: 45px;
-                                    height: auto;
+                                    height: 35px;
                                 }
                             }
                         }
@@ -995,6 +1039,8 @@ body {
 
                                 a {
                                     margin: 0px 5px;
+                                    text-decoration: none;
+
                                 }
                             }
                         }
@@ -1033,8 +1079,14 @@ body {
 
                     .center {
 
+                        .about-dckap {
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: 0px;
+                        }
+
                         .heading {
-                            font-size: 48px;
+                            font-size: 40px;
                             line-height: 60px;
                         }
 
@@ -1066,12 +1118,27 @@ body {
                         p {
                             font-size: 14px;
                             line-height: 22px;
+                            text-align: left;
+
                         }
                     }
 
                     .btn {
                         margin-top: 0;
                     }
+                }
+
+
+                .general-rules {
+
+                    .round-1,
+                    .round-2 {
+                        ol {
+                            padding-left: 20px;
+
+                        }
+                    }
+
                 }
 
                 // overall nizhalchineral container
@@ -1082,13 +1149,13 @@ body {
                                 .titleName {
                                     font-size: 32px;
                                     line-height: 34px;
-                                    padding-bottom: 30px;
+                                    padding-bottom: 20px;
                                 }
 
                                 .nizhalchiDate {
                                     .eventDate {
                                         font-size: 18px;
-                                        line-height: 30px;
+                                        line-height: 24px;
                                     }
                                 }
 
@@ -1096,7 +1163,7 @@ body {
                                     .eventTime {
                                         font-size: 18px;
                                         line-height: 30px;
-                                        padding: 30px 0px;
+                                        padding: 20px 0px;
 
                                     }
                                 }
@@ -1104,7 +1171,7 @@ body {
                                 .nizhalchiLocation {
                                     .venue {
                                         font-size: 18px;
-                                        line-height: 30px;
+                                        line-height: 24px;
 
                                     }
                                 }
@@ -1151,8 +1218,7 @@ body {
                                 }
 
                                 .contactDetails {
-                                    justify-content: space-evenly;
-                                    flex-direction: column;
+                                    display: block;
                                     padding-top: 20px;
 
 
@@ -1294,7 +1360,7 @@ body {
                     .thirukural {
                         width: 100%;
                         margin: auto;
-                        font-size: 16px;
+                        font-size: 15px;
                         padding-bottom: 20px;
                     }
 
@@ -1553,7 +1619,7 @@ body {
                     .center {
                         .about-dckap {
                             font-size: 14px;
-                            line-height: 20px;
+                            line-height: 22px;
                             padding-bottom: 20px;
                         }
 
@@ -1621,3 +1687,4 @@ body {
         }
     }
 }
+
