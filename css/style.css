@@ -72,10 +72,7 @@ body .main-container .header .header-inner-section .logo-container .logo {
   align-items: center;
 }
 body .main-container .header .header-inner-section .logo-container .logo .sub-logo {
-  margin: auto;
-}
-body .main-container .header .header-inner-section .logo-container .logo .sub-logo img {
-  padding-right: 10px;
+  padding-left: 10px;
 }
 body .main-container .header .header-inner-section .logo-container .logo .social-media-link {
   display: none;
@@ -120,7 +117,7 @@ body .main-container .header .header-inner-section .bar-icon i {
 }
 body .main-container .section {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 80px;
   background-color: rgba(0, 0, 0, 0.521);
   background-size: cover;
 }
@@ -486,108 +483,65 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
   text-decoration: none;
 }
 body .main-container .section .thoguppugal {
-  max-width: 1440px;
+  max-width: 87%;
   width: 100%;
-}
-body .main-container .section .thoguppugal .thoguppugal-heading {
+  margin: auto;
+  padding: 55px 0;
   text-align: center;
-  margin-bottom: 40px;
 }
 body .main-container .section .thoguppugal .thoguppugal-heading p {
   font-size: 48px;
   font-weight: 700;
   color: #fff76a;
 }
-body .main-container .section .thoguppugal .thoguppugal-peaple-background {
-  max-width: 1190px;
-  width: 100%;
-  margin: auto;
-  padding: 55px 0;
-  text-align: center;
+body .main-container .section .thoguppugal .inner-container {
   background-color: #000000b2;
-}
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department {
-  padding-bottom: 40px;
-}
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name {
-  max-width: 220px;
-  width: 100%;
-  margin: auto;
-  padding: 15px 0;
-  font-size: 21px;
-  font-weight: 700;
-  color: var(--button-color);
-}
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name span {
-  text-decoration: underline;
-}
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content {
-  max-width: 400px;
-  width: 100%;
-  margin: auto;
-}
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  color: var(--font-color);
-}
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box {
-  max-width: 800px;
-  width: 100%;
-  margin: auto;
+  padding: 40px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: auto -15px;
+  margin-top: 30px;
 }
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p {
-  max-width: 220px;
+body .main-container .section .thoguppugal .inner-container .card-main-container {
+  border: 1px solid;
+  background-color: #080808;
+  color: var(--font-color);
+  display: flex;
+  flex-flow: column;
+  max-width: 325px;
+  margin: auto 15px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+body .main-container .section .thoguppugal .inner-container .card-main-container .img-name-cont .image-cont {
+  max-width: 100%;
+}
+body .main-container .section .thoguppugal .inner-container .card-main-container .img-name-cont .image-cont .image {
+  border-radius: 10px;
+  width: 100%;
+  height: 177px;
+}
+body .main-container .section .thoguppugal .inner-container .card-main-container .img-name-cont .name {
+  text-align: center;
   width: 100%;
   margin: auto;
-  padding: 47px 0px 24px 0px;
-  font-size: 21px;
+  padding: 20px 0;
+  font-size: 18px;
   font-weight: 700;
   color: var(--button-color);
 }
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p span {
-  text-decoration: underline;
-}
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content {
-  max-width: 222px;
-  width: 100%;
-  margin: auto;
-}
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  color: var(--font-color);
-}
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name img {
-  width: 299px;
-  height: 187px;
-}
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p {
-  max-width: 300px;
-  width: 100%;
-  margin: auto;
-  padding: 47px 0px 24px 0px;
-  font-size: 21px;
-  font-weight: 700;
+body .main-container .section .thoguppugal .inner-container .card-main-container .img-name-cont .name a {
   color: var(--button-color);
+  display: block;
 }
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p span {
-  text-decoration: underline;
+body .main-container .section .thoguppugal .inner-container .card-main-container .guest-description {
+  text-align: center;
 }
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content {
-  max-width: 222px;
-  width: 100%;
-  margin: auto;
-}
-body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content p {
-  font-size: 16px;
+body .main-container .section .thoguppugal .inner-container .card-main-container .guest-description p {
+  line-height: 24px;
   font-weight: 400;
-  line-height: 26px;
-  color: var(--font-color);
+  font-size: 16px;
 }
 @media screen and (max-width: 1280px) {
   body .main-container .header .header-inner-section {
@@ -621,10 +575,22 @@ body .main-container .section .thoguppugal .thoguppugal-peaple-background .peapl
   }
   body .main-container .section {
     margin: auto;
-    margin-top: 75px;
+    margin-top: 122px;
   }
-  body .main-container .section .content {
-    padding: 90px 0;
+  body .main-container .section .thoguppugal {
+    max-width: 90%;
+    width: 100%;
+    padding: 40px 0;
+  }
+  body .main-container .section .thoguppugal .inner-container {
+    padding: 30px 0;
+  }
+  body .main-container .section .thoguppugal .inner-container .card-main-container {
+    max-width: 290px;
+    margin: auto 10px;
+  }
+  body .main-container .section .thoguppugal .inner-container .card-main-container .img-name-cont .image-cont .image {
+    height: 150px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -638,10 +604,10 @@ body .main-container .section .thoguppugal .thoguppugal-peaple-background .peapl
   body .main-container .header .header-inner-section .logo-container .logo {
     max-width: 730px;
     width: 100%;
-    padding: 10px 0;
+    padding: 10px 20px;
   }
-  body .main-container .header .header-inner-section .logo-container .logo .sub-logo img {
-    padding-right: 10px;
+  body .main-container .header .header-inner-section .logo-container .logo .sub-logo {
+    padding-left: 10px;
   }
   body .main-container .header .header-inner-section .navigation {
     max-width: 600px;
@@ -649,9 +615,6 @@ body .main-container .section .thoguppugal .thoguppugal-peaple-background .peapl
   body .main-container .header .header-inner-section .navigation ul {
     display: flex;
     justify-content: space-between;
-  }
-  body .main-container .section .content {
-    max-width: 620px;
   }
   body .main-container .section .content .thirukural {
     max-width: 580px;
@@ -687,108 +650,23 @@ body .main-container .section .thoguppugal .thoguppugal-peaple-background .peapl
     max-width: 414px;
   }
   body .main-container .section .thoguppugal {
-    max-width: 1440px;
-    width: 100%;
+    margin-top: 80px;
   }
   body .main-container .section .thoguppugal .thoguppugal-heading {
-    text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
-  body .main-container .section .thoguppugal .thoguppugal-heading p {
-    font-size: 49px;
-    font-weight: 700;
-    color: var(--font-color);
+  body .main-container .section .thoguppugal .inner-container {
+    flex-flow: column;
+    align-items: center;
+    margin: -10px 0;
   }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background {
-    max-width: 1190px;
+  body .main-container .section .thoguppugal .inner-container .card-main-container {
+    margin: 10px 0;
+    max-width: 500px;
     width: 100%;
-    margin: auto;
-    padding: 55px 0;
-    text-align: center;
-    background-color: #000000b2;
   }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department {
-    padding-bottom: 40px;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name {
-    max-width: 220px;
-    width: 100%;
-    margin: auto;
-    padding: 15px 0;
-    font-size: 21px;
-    font-weight: 700;
-    color: var(--button-color);
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name span {
-    text-decoration: underline;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content {
-    max-width: 400px;
-    width: 100%;
-    margin: auto;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    color: var(--font-color);
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box {
-    max-width: 600px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p {
-    max-width: 220px;
-    width: 100%;
-    margin: auto;
-    padding: 47px 0px 24px 0px;
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--button-color);
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p span {
-    text-decoration: underline;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content {
-    max-width: 222px;
-    width: 100%;
-    margin: auto;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
-    color: var(--font-color);
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name img {
-    width: 299px;
-    height: 187px;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p {
-    max-width: 300px;
-    width: 100%;
-    margin: auto;
-    padding: 47px 0px 24px 0px;
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--button-color);
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p span {
-    text-decoration: underline;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content {
-    max-width: 222px;
-    width: 100%;
-    margin: auto;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
-    color: var(--font-color);
+  body .main-container .section .thoguppugal .inner-container .card-main-container .img-name-cont .image-cont .image {
+    height: auto;
   }
 }
 @media screen and (max-width: 768px) {
@@ -802,8 +680,8 @@ body .main-container .section .thoguppugal .thoguppugal-peaple-background .peapl
   body .main-container .header .header-inner-section {
     position: relative;
   }
-  body .main-container .header .header-inner-section .logo-container {
-    padding-left: 20px;
+  body .main-container .header .header-inner-section .logo-container .logo .sub-logo {
+    padding-left: 10px;
   }
   body .main-container .header .header-inner-section .logo-container .logo .sub-logo img {
     width: 45px;
@@ -852,7 +730,7 @@ body .main-container .section .thoguppugal .thoguppugal-peaple-background .peapl
     display: block;
   }
   body .main-container .section {
-    margin-top: 67px;
+    margin-top: 60px;
   }
   body .main-container .section .content {
     max-width: 568px;
@@ -860,11 +738,6 @@ body .main-container .section .thoguppugal .thoguppugal-peaple-background .peapl
   }
   body .main-container .section .content .thirukural {
     font-size: 18px;
-  }
-  body .main-container .section .content .center .about-dckap {
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0px;
   }
   body .main-container .section .content .center .heading {
     font-size: 48px;
@@ -987,114 +860,9 @@ body .main-container .section .thoguppugal .thoguppugal-peaple-background .peapl
     height: 35px;
   }
   body .main-container .section .thoguppugal {
-    max-width: 1440px;
+    max-width: 87%;
     width: 100%;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-heading {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-heading p {
-    font-size: 32px;
-    font-weight: 700;
-    color: var(--font-color);
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background {
-    max-width: 1190px;
-    width: 100%;
-    margin: auto;
-    padding: 55px 0;
-    text-align: center;
-    background-color: #000000b2;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department {
-    padding-bottom: 40px;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .sokkan {
-    width: 100%;
-    max-width: 280px;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name {
-    max-width: 220px;
-    width: 100%;
-    margin: auto;
-    padding: 15px 0;
-    font-size: 21px;
-    font-weight: 700;
-    color: var(--button-color);
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name span {
-    text-decoration: underline;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content {
-    max-width: 400px;
-    width: 100%;
-    margin: auto;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    color: var(--font-color);
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box {
-    max-width: 600px;
-    width: 100%;
-    margin: auto;
-    display: block;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one {
-    padding-bottom: 40px;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p {
-    max-width: 220px;
-    width: 100%;
-    margin: auto;
-    padding: 47px 0px 24px 0px;
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--button-color);
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p span {
-    text-decoration: underline;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content {
-    max-width: 222px;
-    width: 100%;
-    margin: auto;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
-    color: var(--font-color);
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name img {
-    width: 299px;
-    height: 187px;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p {
-    max-width: 300px;
-    width: 100%;
-    margin: auto;
-    padding: 47px 0px 24px 0px;
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--button-color);
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p span {
-    text-decoration: underline;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content {
-    max-width: 222px;
-    width: 100%;
-    margin: auto;
-  }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
-    color: var(--font-color);
+    margin-top: 70px;
   }
 }
 @media screen and (max-width: 670px) {
@@ -1103,6 +871,9 @@ body .main-container .section .thoguppugal .thoguppugal-peaple-background .peapl
   }
   body .main-container .header .header-inner-section .logo-container .logo .main-logo {
     display: none;
+  }
+  body .main-container .section {
+    margin-top: 71px;
   }
   body .main-container .section .content {
     max-width: 470px;
@@ -1226,11 +997,18 @@ body .main-container .section .thoguppugal .thoguppugal-peaple-background .peapl
     font-size: 16px;
     height: 35px;
   }
-  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    padding: 0px 14px;
+  body .main-container .section .thoguppugal .thoguppugal-heading p {
+    font-size: 24px;
+  }
+  body .main-container .section .thoguppugal .inner-container {
+    max-width: unset;
+  }
+  body .main-container .section .thoguppugal .inner-container .card-main-container {
+    max-width: 300px;
+    width: 100%;
+  }
+  body .main-container .section .thoguppugal .inner-container .card-main-container .img-name-cont .image-cont .image {
+    height: 150px;
   }
 }
 @media screen and (max-width: 580px) {
@@ -1279,16 +1057,7 @@ body .main-container .section .thoguppugal .thoguppugal-peaple-background .peapl
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section {
     margin-top: 35px;
   }
-}
-.card-main-container {
-  background-color: var(--font-color);
-  display: flex;
-  flex-flow: column;
-  max-width: 450px;
-  margin: auto;
-  align-items: center;
-}
-.card-main-container .img-name-cont .image-cont .image {
-  width: 100%;
-  height: auto;
+  body .main-container .section .thoguppugal .inner-container .card-main-container {
+    max-width: 280px;
+  }
 }
