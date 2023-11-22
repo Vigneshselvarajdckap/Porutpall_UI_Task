@@ -1,0 +1,1931 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Tamil', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --primary-color: #000000;
+    --font-color: #ffffff;
+    --button-color: #FFF76A;
+}
+
+.btn {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-props {
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: rgb(255, 255, 116);
+    border-radius: 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-top: 25px;
+
+    &:hover {
+        background-color: rgb(255, 255, 116);
+        border: 1px solid black;
+        transition: 0.2s;
+        color: black;
+    }
+}
+
+body {
+    background: url('https://i.postimg.cc/8CjGvqp0/background.webp');
+    margin: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Noto Sans Tamil', sans-serif;
+
+    .main-container {
+        background-color: rgba(255, 255, 255, 0.199);
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: black;
+
+            .header-inner-section {
+                max-width: 1250px;
+                width: 100%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .logo-container {
+                    flex: 1;
+
+                    .logo {
+                        max-width: 380px;
+                        width: 100%;
+                        padding: 20px 0;
+                        display: flex;
+                        align-items: center;
+
+                        .sub-logo {
+                            margin: auto;
+
+                            img {
+                                padding-right: 10px;
+                            }
+                        }
+
+                        .social-media-link {
+                            display: none;
+                        }
+                    }
+                }
+
+                .line-small-screen {
+                    display: none;
+                }
+
+                .navigation {
+                    ul {
+                        display: flex;
+                        justify-content: space-between;
+
+                        li {
+                            list-style: none;
+                            margin-right: 25px;
+                            line-height: 25px;
+                            font-size: 13px;
+                            font-weight: 400px;
+                            color: #fff;
+
+                            &:hover {
+                                cursor: pointer;
+                                color: rgb(255, 255, 116);
+                            }
+                        }
+
+                        .tab-view-sm-links {
+                            display: none;
+                        }
+
+                        .link.active {
+                            color: var(--button-color);
+                        }
+                    }
+                }
+
+                .social-media-link {
+                    max-width: 75px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .bar-icon {
+                    width: 60px;
+                    display: none;
+
+                    i {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .section {
+            width: 100%;
+            margin-top: 100px;
+            background-color: rgba(0, 0, 0, 0.521);
+            background-size: cover;
+
+            .content {
+                display: none;
+                max-width: 940px;
+                width: 100%;
+                margin: auto;
+                padding: 50px 0;
+
+                .thirukural {
+                    max-width: 600px;
+                    margin: auto;
+                    width: 100%;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    color: #fff;
+                    padding-bottom: 40px;
+
+                    ::before {
+                        content: "\201D";
+                    }
+
+                    ::after {
+                        content: "\201D";
+                    }
+                }
+
+                .center {
+                    text-align: center;
+
+                    .about-dckap {
+                        letter-spacing: 0.8px;
+                        max-width: 800px;
+                        width: 100%;
+                        margin: auto;
+                        font-size: 30px;
+                        font-weight: 600;
+                        color: #fff;
+                        padding-bottom: 40px;
+                    }
+
+                    .heading {
+                        text-align: center;
+                        font-size: 60px;
+                        font-weight: 700;
+                        line-height: 75px;
+                        color: #fff;
+                    }
+
+                    .tamilum {
+                        font-size: 36px;
+                        font-weight: 700;
+                        line-height: 94px;
+                        color: #fff;
+                    }
+                }
+
+                .btn {
+                    a {
+                        .button-props;
+                    }
+                }
+
+            }
+
+            .content.active {
+                display: block;
+            }
+
+            .nokkam {
+                display: none;
+                max-width: 850px;
+                width: 100%;
+                margin: auto;
+                text-align: center;
+
+                .heading1 {
+
+                    h1 {
+                        font-size: 48px;
+                        font-weight: 700;
+                        line-height: 79px;
+                        color: #fff76a;
+                        ;
+                    }
+                }
+
+                .heading2 {
+                    margin: 35px 0;
+
+                    h3 {
+                        font-size: 30px;
+                        font-weight: 700;
+                        color: var(--font-color);
+                    }
+                }
+
+                .description {
+                    padding: 0px 50px;
+
+                    p {
+                        font-size: 16px;
+                        line-height: 25px;
+                        font-weight: 400;
+                        color: var(--font-color);
+                    }
+                }
+
+                .btn {
+                    margin-top: 25px;
+                    display: flex;
+                    justify-content: center;
+                    border-radius: 35px;
+
+                    a {
+                        padding: 15px 40px;
+                        .button-props;
+                    }
+                }
+            }
+
+            .general-rules {
+                // max-width: 980px;
+                width: 100%;
+                margin: auto;
+                text-align: start;
+                color: var(--font-color);
+
+                ol {
+                    padding-left: 40px;
+
+                    li {
+                        font-size: 16px;
+                        line-height: 30px;
+                        font-weight: 500;
+                        color: var(--font-color);
+                    }
+                }
+
+                .heading {
+                    h1 {
+                        text-align: center;
+                        font-size: 48px;
+                        font-weight: 700;
+                        line-height: 79px;
+                        color: #fff76a;
+                        ;
+                    }
+                }
+
+                .round-1,
+                .round-2 {
+                    .heading {
+                        h2 {
+                            line-height: 79px;
+                            text-align: center;
+                            font-size: 30px;
+                            font-weight: 700;
+                            color: #fff76a;
+                            ;
+                        }
+                    }
+                }
+
+            }
+
+            // third page styles
+            .overall-nizhalchineral {
+                padding: 30px 0;
+
+                .nizhalchineral-section {
+                    display: flex;
+                    align-self: start;
+
+                    .inner-nizhachineral-section {
+                        padding-top: 30px;
+
+
+
+                        .first-container-contents {
+                            color: white;
+                            width: 100%;
+                            max-width: 450px;
+
+                            .specialText {
+                                color: #fff76a;
+                            }
+
+                            .titleName {
+                                color: #fff76a;
+                                font-size: 38px;
+                                line-height: 36px;
+                                font-weight: 600;
+                                padding-bottom: 45px;
+                            }
+
+                            .nizhalchiDate {
+                                .eventDate {
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    line-height: 40px;
+
+                                }
+                            }
+
+                            .nizhalchiTimings {
+                                .eventTime {
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    line-height: 32px;
+                                    padding: 45px 0px;
+                                }
+                            }
+
+                            .nizhalchiLocation {
+                                .venue {
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    line-height: 40px;
+                                }
+                            }
+
+
+                        }
+
+                    }
+
+                    .eventDetails-section {
+                        margin-left: 90px;
+
+                        .eventDetailsContents {
+                            table {
+                                color: white;
+                                border-collapse: collapse;
+
+                                .tableRow>:first-child {
+                                    border-right: 1px solid white;
+                                    padding-right: 20px;
+                                }
+
+                                .tableRow>:nth-child(2) {
+                                    padding-left: 40px;
+                                }
+
+
+
+                                .tableRow {
+
+                                    .tableData {
+                                        font-size: 16px;
+                                        height: 92px;
+                                        max-width: 310px;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+                .outer-bottom {
+                    padding: 100px 0;
+
+                    .bottom-line {
+                        height: 1px;
+                        background-color: white;
+
+                    }
+                }
+            }
+
+
+
+            // fourth page container
+            .thodarbugal-container {
+
+                max-width: 1190px;
+                width: 100%;
+
+                .inner-thodarbugal-container {
+                    .blur-rectangle {
+                        width: 100%;
+                        background-color: rgba(0, 0, 0, 0.521);
+                        padding: 50px 130px;
+                        text-align: center;
+
+                        .contactTitle {
+                            .titleContactName {
+                                font-size: 48px;
+                                color: #fff76a;
+                                line-height: 46px;
+                                font-weight: 700px;
+                            }
+
+                            .contactDetails {
+                                display: flex;
+                                justify-content: space-evenly;
+                                padding-top: 58px;
+
+                                .mobile {
+                                    .mobileNumber {
+                                        color: #fff76a;
+                                        font-size: 21px;
+                                        line-height: 24px;
+                                        padding-bottom: 15px;
+                                        font-weight: 700px;
+                                    }
+
+                                    .numberText {
+                                        color: white;
+                                        font-size: 16px;
+                                        line-height: 18px;
+                                        font-weight: 500px;
+
+                                    }
+
+                                }
+
+                                .email {
+                                    .mail {
+                                        .mailAddress {
+                                            color: #fff76a;
+                                            font-size: 21px;
+                                            line-height: 24px;
+                                            padding-bottom: 15px;
+                                            font-weight: 700px;
+                                        }
+
+                                        .emailValue {
+                                            color: white;
+                                            font-size: 16px;
+                                            line-height: 18px;
+                                            font-weight: 500;
+                                        }
+                                    }
+
+                                }
+                            }
+
+                            .form {
+                                padding-top: 85px;
+                                max-width: 713px;
+                                text-align: center;
+                                margin: 0 auto;
+
+                                form {
+                                    color: white;
+
+                                    .nameDiv,
+                                    .detailsDiv {
+                                        display: flex;
+                                        justify-content: space-evenly;
+
+                                        .inputContainer {
+                                            max-width: 300px;
+                                            flex: 1;
+
+                                            label {
+                                                display: block;
+                                                text-align: left;
+                                            }
+
+                                            span {
+                                                color: red;
+                                                padding-left: 3px;
+                                            }
+
+                                            input {
+                                                width: 100%;
+                                                max-width: 300px;
+                                                height: 40px;
+                                                background-color: transparent;
+                                                border: 1px solid #fff;
+                                                margin: 18px 0px 50px 0px;
+                                                color: white;
+                                                border-radius: 5px;
+                                                padding-left: 10px;
+
+
+
+
+
+                                                &:hover {
+                                                    border: 1px solid #fff76a;
+
+                                                }
+                                            }
+
+
+                                        }
+                                    }
+
+                                    .btns {
+                                        max-width: 640px;
+                                        margin: 0 auto;
+
+                                        .full-width {
+
+                                            label {
+                                                display: block;
+                                                padding-bottom: 18px;
+                                                text-align: left;
+                                            }
+
+                                            textarea {
+                                                width: 100%;
+                                                border-radius: 5px;
+                                                padding: 15px 0px 0px 15px;
+                                                background-color: transparent;
+                                                color: white;
+                                                border: 1px solid;
+
+                                                &:hover {
+                                                    border: 1px solid #fff76a;
+                                                }
+                                            }
+
+                                            .submitBtn {
+                                                margin-top: -7px;
+                                                background: #fff76a;
+                                                width: 100%;
+
+                                                height: 52px;
+                                                border: 0;
+                                                font-size: 22px;
+                                                font-weight: 500;
+                                                text-align: center;
+                                                cursor: pointer;
+                                                margin-top: 20px;
+                                                border-radius: 5px;
+
+                                                span {
+                                                    i {
+
+                                                        font-size: 18px;
+                                                        font-weight: 500;
+
+
+                                                    }
+                                                }
+
+
+
+                                                &:hover {
+                                                    background: transparent;
+                                                    border: 1px solid #fff76a;
+                                                    color: #fff76a;
+
+                                                    i {
+                                                        font-weight: bolder;
+                                                    }
+                                                }
+
+                                            }
+
+                                        }
+
+                                    }
+
+
+
+                                }
+                            }
+                        }
+                    }
+
+                    .social-links {
+                        text-align: center;
+                        padding-top: 48px;
+
+                        a {
+                            padding-left: 5px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+
+            // thoguppugal section
+            .thoguppugal {
+                max-width: 1440px;
+                width: 100%;
+
+                .thoguppugal-heading {
+                    text-align: center;
+                    margin-bottom: 40px;
+
+                    p {
+                        font-size: 48px;
+                        font-weight: 700;
+                        color: #fff76a;
+                    }
+                }
+
+                .thoguppugal-peaple-background {
+                    max-width: 1190px;
+                    width: 100%;
+                    margin: auto;
+                    padding: 55px 0;
+                    text-align: center;
+                    background-color: #000000b2;
+
+                    .right-department {
+                        padding-bottom: 40px;
+
+                        .profile-img-name {
+                            .profile-name {
+                                max-width: 220px;
+                                width: 100%;
+                                margin: auto;
+                                padding: 15px 0;
+                                font-size: 21px;
+                                font-weight: 700;
+                                color: var(--button-color);
+
+                                span {
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+
+                        .right-department-content {
+                            max-width: 400px;
+                            width: 100%;
+                            margin: auto;
+
+                            p {
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 26px;
+                                color: var(--font-color);
+                            }
+                        }
+                    }
+
+                    .peaple-flex-box {
+                        max-width: 800px;
+                        width: 100%;
+                        margin: auto;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .peaple-one {
+                            .person-img-name {
+                                p {
+                                    max-width: 220px;
+                                    width: 100%;
+                                    margin: auto;
+                                    padding: 47px 0px 24px 0px;
+                                    font-size: 21px;
+                                    font-weight: 700;
+                                    color: var(--button-color);
+
+                                    span {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+
+                            .right-department-content {
+                                max-width: 222px;
+                                width: 100%;
+                                margin: auto;
+
+                                p {
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 26px;
+                                    color: var(--font-color);
+                                }
+                            }
+                        }
+
+                        .peaple-two {
+                            .person-img-name {
+                                img {
+                                    width: 299px;
+                                    height: 187px;
+                                }
+
+                                p {
+                                    max-width: 300px;
+                                    width: 100%;
+                                    margin: auto;
+                                    padding: 47px 0px 24px 0px;
+                                    font-size: 21px;
+                                    font-weight: 700;
+                                    color: var(--button-color);
+
+                                    span {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+
+                            .right-department-content {
+                                max-width: 222px;
+                                width: 100%;
+                                margin: auto;
+
+                                p {
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 26px;
+                                    color: var(--font-color);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width:1280px) {
+
+    body {
+
+        .main-container {
+            .header {
+
+                .header-inner-section {
+                    max-width: 1000px;
+                    flex-wrap: wrap;
+
+                    .logo-container {
+                        .logo {
+                            padding: 5px 0;
+                        }
+                    }
+
+                    .line-small-screen {
+                        order: 3;
+                        display: block;
+                        width: 100%;
+                        height: 1px;
+                        background-color: rgb(255, 255, 116);
+                    }
+
+                    .navigation {
+                        order: 4;
+                        max-width: 800px;
+                        width: 100%;
+                        margin: auto;
+
+                        ul {
+
+                            li {
+                                list-style: none;
+                                padding: 0;
+                                margin-right: 25px;
+                                line-height: 50px;
+                            }
+                        }
+                    }
+
+                    .social-media-link {
+                        order: 2;
+                    }
+                }
+            }
+
+            .section {
+                margin: auto;
+                margin-top: 75px;
+
+                .content {
+                    padding: 90px 0;
+
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and(max-width:1024px) {
+
+    body {
+
+        .main-container {
+
+
+            .header {
+
+                .header-inner-section {
+                    max-width: 800px;
+                    width: 100%;
+
+                    .logo-container {
+                        width: 100%;
+
+                        .logo {
+                            max-width: 730px;
+                            width: 100%;
+                            padding: 10px 0;
+
+                            .sub-logo {
+                                img {
+                                    padding-right: 10px;
+                                }
+                            }
+                        }
+                    }
+
+
+                    .navigation {
+                        max-width: 600px;
+
+                        ul {
+                            display: flex;
+                            justify-content: space-between;
+
+                        }
+                    }
+
+                }
+            }
+
+            .section {
+
+                .content {
+                    max-width: 620px;
+
+
+                    .thirukural {
+                        max-width: 580px;
+                        width: 100%;
+                        font-size: 20px;
+                        font-weight: 700;
+                        font-family: poppins-extralight, sans-serif;
+                        line-height: 28px;
+                        color: #fff;
+                        padding-bottom: 40px;
+                    }
+
+                    .center {
+                        .heading {
+                            font-size: 60px;
+                        }
+                    }
+
+                }
+
+                .overall-nizhalchineral {
+                    .nizhalchineral-section {
+                        text-align: center;
+                        flex-direction: column;
+                        align-items: center;
+
+
+
+                        .eventDetails-section {
+                            text-align: center;
+                            margin-left: 0px;
+                            margin-top: 60px;
+
+
+                        }
+
+
+
+                    }
+                }
+
+
+                .thodarbugal-container {
+                    .inner-thodarbugal-container {
+                        .blur-rectangle {
+                            padding: 70px 60px;
+
+                            .contactTitle {
+                                .form {
+                                    form {
+
+                                        .nameDiv,
+                                        .detailsDiv {
+                                            .inputContainer {
+                                                max-width: 190px;
+                                            }
+                                        }
+
+                                        .btns {
+                                            max-width: 414px;
+
+                                        }
+
+
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+                // thoguppugal
+
+                .thoguppugal {
+                    max-width: 1440px;
+                    width: 100%;
+
+                    .thoguppugal-heading {
+                        text-align: center;
+                        margin-bottom: 40px;
+
+                        p {
+                            font-size: 49px;
+                            font-weight: 700;
+                            color: var(--font-color);
+                        }
+                    }
+
+                    .thoguppugal-peaple-background {
+                        max-width: 1190px;
+                        width: 100%;
+                        margin: auto;
+                        padding: 55px 0;
+                        text-align: center;
+                        background-color: #000000b2;
+
+                        .right-department {
+                            padding-bottom: 40px;
+
+                            .profile-img-name {
+                                .profile-name {
+                                    max-width: 220px;
+                                    width: 100%;
+                                    margin: auto;
+                                    padding: 15px 0;
+                                    font-size: 21px;
+                                    font-weight: 700;
+                                    color: var(--button-color);
+
+                                    span {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+
+                            .right-department-content {
+                                max-width: 400px;
+                                width: 100%;
+                                margin: auto;
+
+                                p {
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 26px;
+                                    color: var(--font-color);
+                                }
+                            }
+                        }
+
+                        .peaple-flex-box {
+                            max-width: 600px;
+                            width: 100%;
+                            margin: auto;
+                            display: flex;
+                            justify-content: space-between;
+
+                            .peaple-one {
+                                .person-img-name {
+                                    p {
+                                        max-width: 220px;
+                                        width: 100%;
+                                        margin: auto;
+                                        padding: 47px 0px 24px 0px;
+                                        font-size: 18px;
+                                        font-weight: 700;
+                                        color: var(--button-color);
+
+                                        span {
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+
+                                .right-department-content {
+                                    max-width: 222px;
+                                    width: 100%;
+                                    margin: auto;
+
+                                    p {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        line-height: 26px;
+                                        color: var(--font-color);
+                                    }
+                                }
+                            }
+
+                            .peaple-two {
+                                .person-img-name {
+                                    img {
+                                        width: 299px;
+                                        height: 187px;
+                                    }
+
+                                    p {
+                                        max-width: 300px;
+                                        width: 100%;
+                                        margin: auto;
+                                        padding: 47px 0px 24px 0px;
+                                        font-size: 18px;
+                                        font-weight: 700;
+                                        color: var(--button-color);
+
+                                        span {
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+
+                                .right-department-content {
+                                    max-width: 222px;
+                                    width: 100%;
+                                    margin: auto;
+
+                                    p {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        line-height: 26px;
+                                        color: var(--font-color);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width : 768px) {
+
+    body {
+
+        .main-container {
+            max-width: 768px;
+
+
+            .header {
+                width: 100%;
+                background-color: black;
+
+                .header-inner-section {
+                    position: relative;
+
+                    .logo-container {
+                        padding-left: 20px;
+
+                        .logo {
+                            .sub-logo {
+                                img {
+                                    width: 45px;
+                                    height: auto;
+                                }
+                            }
+                        }
+                    }
+
+                    .social-media-link {
+                        display: none;
+                    }
+
+                    .line-small-screen {
+                        display: none;
+                    }
+
+                    .navigation {
+                        position: absolute;
+                        background-color: var(--primary-color);
+                        max-width: 100%;
+                        height: 100vh;
+                        display: none;
+                        top: 67px;
+
+                        ul {
+                            flex-flow: column;
+                            align-items: center;
+
+                            li {
+                                margin-right: 0;
+                            }
+
+                            .tab-view-sm-links {
+                                display: block;
+                                margin: 0px -5px;
+
+                                a {
+                                    margin: 0px 5px;
+                                }
+                            }
+                        }
+                    }
+
+                    .bar-icon {
+                        display: block;
+                        padding: 20px;
+
+                        i {
+                            font-size: 24px;
+                            color: #fff;
+                        }
+                    }
+
+                    .social-media-link {
+                        display: none;
+                    }
+
+                    .navigation.show {
+                        display: block;
+                    }
+                }
+            }
+
+            .section {
+                margin-top: 67px;
+
+                .content {
+                    max-width: 568px;
+                    padding: 40px 0px;
+
+                    .thirukural {
+                        font-size: 18px;
+                    }
+
+                    .center {
+                        .about-dckap {
+                            font-size: 14px;
+                            line-height: 21px;
+                            letter-spacing: 0px;
+                        }
+
+                        .heading {
+                            font-size: 48px;
+                            line-height: 60px;
+                        }
+
+                        .tamilum {
+                            font-size: 30px;
+                        }
+                    }
+                }
+
+                .nokkam {
+                    .heading1 {
+                        h1 {
+                            font-size: 36px;
+                            line-height: 50px;
+                        }
+                    }
+
+                    .heading2 {
+                        margin: 25px 0;
+
+                        h3 {
+                            font-size: 23px;
+                        }
+                    }
+
+                    .description {
+                        padding: 0px 16px;
+
+                        p {
+                            font-size: 14px;
+                            line-height: 22px;
+                        }
+                    }
+
+                    .btn {
+                        margin-top: 0;
+                    }
+                }
+
+                // overall nizhalchineral container
+                .overall-nizhalchineral {
+                    .nizhalchineral-section {
+                        .inner-nizhachineral-section {
+                            .first-container-contents {
+                                .titleName {
+                                    font-size: 32px;
+                                    line-height: 34px;
+                                    padding-bottom: 30px;
+                                }
+
+                                .nizhalchiDate {
+                                    .eventDate {
+                                        font-size: 18px;
+                                        line-height: 30px;
+                                    }
+                                }
+
+                                .nizhalchiTimings {
+                                    .eventTime {
+                                        font-size: 18px;
+                                        line-height: 30px;
+                                        padding: 30px 0px;
+
+                                    }
+                                }
+
+                                .nizhalchiLocation {
+                                    .venue {
+                                        font-size: 18px;
+                                        line-height: 30px;
+
+                                    }
+                                }
+                            }
+                        }
+
+                        .eventDetails-section {
+                            .eventDetailsContents {
+
+                                table {
+                                    .tableRow {
+                                        .tableData {
+                                            font-size: 14px;
+                                            height: 70px;
+
+                                        }
+                                    }
+
+                                    .tableRow> :nth-child(2) {
+                                        padding-left: 20px;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+
+                    .outer-bottom {
+                        padding: 60px 0px;
+
+                    }
+                }
+
+                .thodarbugal-container {
+                    .inner-thodarbugal-container {
+                        .blur-rectangle {
+                            padding: 30px 0px;
+
+                            .contactTitle {
+                                .titleContactName {
+                                    font-size: 24px;
+                                    line-height: 36px;
+
+                                }
+
+                                .contactDetails {
+                                    justify-content: space-evenly;
+                                    flex-direction: column;
+                                    padding-top: 20px;
+
+
+                                    .mobile {
+                                        .mobileNumber {
+                                            font-size: 18px;
+                                            padding-bottom: 5px;
+
+                                        }
+
+                                        .numberText {
+                                            font-size: 14px;
+                                        }
+
+                                    }
+
+                                    .email {
+                                        padding-top: 20px;
+
+                                        .mail {
+                                            .mailAddress {
+                                                font-size: 18px;
+                                                padding-bottom: 5px;
+
+
+                                            }
+
+                                            .emailValue {
+                                                font-size: 14px;
+
+                                            }
+                                        }
+
+                                    }
+
+
+                                }
+
+                                .form {
+                                    padding-top: 35px;
+
+                                    form {
+
+                                        .nameDiv,
+                                        .detailsDiv {
+                                            display: block;
+
+                                            .inputContainer {
+                                                max-width: 280px;
+                                                margin: 0 auto;
+
+                                                label {
+                                                    font-size: 14px;
+
+                                                }
+
+                                                input {
+                                                    margin: 15px 0px 15px 0px;
+                                                    padding-left: 10px;
+                                                }
+
+
+                                            }
+                                        }
+
+                                        .btns {
+                                            max-width: 280px;
+
+                                            .full-width {
+                                                label {
+                                                    padding-bottom: 10px;
+                                                    font-size: 14px;
+
+                                                }
+
+                                                textarea {
+                                                    max-width: 280px;
+                                                }
+
+                                                .submitBtn {
+                                                    max-width: 280px;
+                                                    font-size: 16px;
+                                                    height: 35px;
+                                                }
+                                            }
+                                        }
+
+
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .thoguppugal {
+                    max-width: 1440px;
+                    width: 100%;
+
+                    .thoguppugal-heading {
+                        text-align: center;
+                        margin-bottom: 40px;
+
+                        p {
+                            font-size: 32px;
+                            font-weight: 700;
+                            color: var(--font-color);
+                        }
+                    }
+
+                    .thoguppugal-peaple-background {
+                        max-width: 1190px;
+                        width: 100%;
+                        margin: auto;
+                        padding: 55px 0;
+                        text-align: center;
+                        background-color: #000000b2;
+
+                        .right-department {
+                            padding-bottom: 40px;
+
+                            .profile-img-name {
+
+                                .sokkan {
+                                    width: 100%;
+                                    max-width: 280px;
+                                }
+
+                                .profile-name {
+                                    max-width: 220px;
+                                    width: 100%;
+                                    margin: auto;
+                                    padding: 15px 0;
+                                    font-size: 21px;
+                                    font-weight: 700;
+                                    color: var(--button-color);
+
+                                    span {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+
+                            .right-department-content {
+                                max-width: 400px;
+                                width: 100%;
+                                margin: auto;
+
+                                p {
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 26px;
+                                    color: var(--font-color);
+                                }
+                            }
+                        }
+
+                        .peaple-flex-box {
+                            max-width: 600px;
+                            width: 100%;
+                            margin: auto;
+                            // display: flex;
+                            // justify-content: space-between;
+                            display: block;
+
+                            .peaple-one {
+                                padding-bottom: 40px;
+
+                                .person-img-name {
+                                    p {
+                                        max-width: 220px;
+                                        width: 100%;
+                                        margin: auto;
+                                        padding: 47px 0px 24px 0px;
+                                        font-size: 18px;
+                                        font-weight: 700;
+                                        color: var(--button-color);
+
+                                        span {
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+
+                                .right-department-content {
+                                    max-width: 222px;
+                                    width: 100%;
+                                    margin: auto;
+
+                                    p {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        line-height: 26px;
+                                        color: var(--font-color);
+                                    }
+                                }
+                            }
+
+                            .peaple-two {
+                                .person-img-name {
+                                    img {
+                                        width: 299px;
+                                        height: 187px;
+                                    }
+
+                                    p {
+                                        max-width: 300px;
+                                        width: 100%;
+                                        margin: auto;
+                                        padding: 47px 0px 24px 0px;
+                                        font-size: 18px;
+                                        font-weight: 700;
+                                        color: var(--button-color);
+
+                                        span {
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+
+                                .right-department-content {
+                                    max-width: 222px;
+                                    width: 100%;
+                                    margin: auto;
+
+                                    p {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        line-height: 26px;
+                                        color: var(--font-color);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width : 670px) {
+
+    body {
+
+        .main-container {
+
+            // max-width: 580px;
+            .header {
+                .header-inner-section {
+                    .logo-container {
+                        .logo {
+                            display: block;
+
+                            .main-logo {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .section {
+
+                .content {
+                    max-width: 470px;
+
+                    .thirukural {
+                        width: 100%;
+                        margin: auto;
+                        font-size: 16px;
+                        padding-bottom: 20px;
+                    }
+
+                    .center {
+                        .about-dckap {
+                            font-size: 18px;
+                            padding-bottom: 20px;
+                        }
+
+                        .heading {
+                            font-size: 36px;
+                            line-height: 40px;
+                        }
+
+                        .tamilum {
+                            font-size: 18px;
+                            line-height: 74px;
+                        }
+                    }
+
+                    .btn {
+                        a {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+
+
+                .general-rules {
+                    .heading {
+                        h1 {
+                            text-align: center;
+                            font-size: 26px;
+                            font-weight: 700;
+                            line-height: 40px;
+                        }
+
+                    }
+
+                    .rules {
+                        ol {
+                            padding-top: 20px;
+                            padding-left: 20px;
+
+                            li {
+                                font-size: 14px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+
+                    .round-1 {
+                        .heading {
+                            h2 {
+                                line-height: 40px;
+                                text-align: center;
+                                font-size: 26px;
+                                padding: 20px 0px;
+
+
+                            }
+                        }
+
+                        ol {
+                            li {
+                                font-size: 14px;
+                                line-height: 24px;
+                            }
+
+                        }
+                    }
+
+                    .round-2 {
+                        .heading {
+                            h2 {
+                                line-height: 40px;
+                                font-size: 26px;
+                                padding: 20px 0px;
+                            }
+                        }
+
+                        ol {
+                            li {
+                                font-size: 14px;
+                                line-height: 24px;
+                            }
+
+                        }
+                    }
+                }
+
+                // thodarbugal container
+                .thodarbugal-container {
+                    .inner-thodarbugal-container {
+                        .blur-rectangle {
+                            padding: 30px 0px;
+
+                            .contactTitle {
+                                .titleContactName {
+                                    font-size: 24px;
+                                    line-height: 36px;
+
+                                }
+
+                                .contactDetails {
+                                    justify-content: space-evenly;
+                                    flex-direction: column;
+                                    padding-top: 20px;
+
+
+                                    .mobile {
+                                        .mobileNumber {
+                                            font-size: 18px;
+                                            padding-bottom: 5px;
+
+                                        }
+
+                                        .numberText {
+                                            font-size: 14px;
+                                        }
+
+                                    }
+
+                                    .email {
+                                        padding-top: 20px;
+
+                                        .mail {
+                                            .mailAddress {
+                                                font-size: 18px;
+                                                padding-bottom: 5px;
+
+
+                                            }
+
+                                            .emailValue {
+                                                font-size: 14px;
+
+                                            }
+                                        }
+
+                                    }
+
+
+                                }
+
+                                .form {
+                                    padding-top: 35px;
+
+                                    form {
+
+                                        .nameDiv,
+                                        .detailsDiv {
+                                            display: block;
+
+                                            .inputContainer {
+                                                max-width: 280px;
+                                                margin: 0 auto;
+
+                                                label {
+                                                    font-size: 14px;
+
+                                                }
+
+                                                input {
+                                                    margin: 15px 0px 15px 0px;
+                                                    padding-left: 10px;
+                                                }
+
+
+                                            }
+                                        }
+
+                                        .btns {
+                                            max-width: 280px;
+
+                                            .full-width {
+                                                label {
+                                                    padding-bottom: 10px;
+                                                    font-size: 14px;
+
+                                                }
+
+                                                textarea {
+                                                    max-width: 280px;
+                                                }
+
+                                                .submitBtn {
+                                                    max-width: 280px;
+                                                    font-size: 16px;
+                                                    height: 35px;
+                                                }
+                                            }
+                                        }
+
+
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .thoguppugal {
+
+                    .thoguppugal-peaple-background {
+                        .right-department {
+                            .right-department-content {
+                                p {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 22px;
+                                    padding: 0px 14px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width : 580px) {
+
+    body {
+
+        .main-container {
+            // max-width: 580px;
+
+            .section {
+
+                .content {
+                    max-width: 340px;
+                    padding: 25px 0px;
+
+                    .thirukural {
+                        width: 100%;
+                        margin: auto;
+                        font-size: 11px;
+                        line-height: 16px;
+                        padding-bottom: 10px;
+                    }
+
+                    .center {
+                        .about-dckap {
+                            font-size: 14px;
+                            line-height: 20px;
+                            padding-bottom: 20px;
+                        }
+
+                        .heading {
+                            font-size: 28px;
+                            line-height: 25px;
+                        }
+
+                        .tamilum {
+                            font-size: 11px;
+                            line-height: 50px;
+                        }
+                    }
+
+                    .btn {
+                        width: 70%;
+
+                        a {
+                            text-align: center;
+                            font-size: 11px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+
+                .nokkam {
+                    .description {
+                        p {
+                            line-height: 20px;
+                        }
+                    }
+
+                    .heading1 {
+                        h1 {
+                            font-size: 32px;
+                            line-height: 45px;
+
+                        }
+                    }
+
+                    .heading2 {
+                        h3 {
+                            font-size: 18px;
+                        }
+                    }
+                }
+
+                .overall-nizhalchineral {
+                    .nizhalchineral-section {
+                        .eventDetails-section {
+                            margin-top: 35px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.card-main-container {
+    background-color: var(--font-color);
+    display: flex;
+    flex-flow: column;
+    max-width: 450px;
+    margin: auto;
+    align-items: center;
+
+    .img-name-cont {
+        .image-cont {
+
+            .image {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        // .name{
+
+        // }
+    }
+}

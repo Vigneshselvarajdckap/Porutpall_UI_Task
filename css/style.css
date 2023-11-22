@@ -1,0 +1,1294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Tamil', sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  --primary-color: #000000;
+  --font-color: #ffffff;
+  --button-color: #FFF76A;
+}
+.btn {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.button-props {
+  padding: 10px;
+  background-color: black;
+  color: #ffff74;
+  border-radius: 25px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-top: 25px;
+}
+.button-props:hover {
+  background-color: #ffff74;
+  border: 1px solid black;
+  transition: 0.2s;
+  color: black;
+}
+body {
+  background: url('https://i.postimg.cc/8CjGvqp0/background.webp');
+  margin: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Noto Sans Tamil', sans-serif;
+}
+body .main-container {
+  background-color: rgba(255, 255, 255, 0.199);
+}
+body .main-container .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+}
+body .main-container .header .header-inner-section {
+  max-width: 1250px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .main-container .header .header-inner-section .logo-container {
+  flex: 1;
+}
+body .main-container .header .header-inner-section .logo-container .logo {
+  max-width: 380px;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+body .main-container .header .header-inner-section .logo-container .logo .sub-logo {
+  margin: auto;
+}
+body .main-container .header .header-inner-section .logo-container .logo .sub-logo img {
+  padding-right: 10px;
+}
+body .main-container .header .header-inner-section .logo-container .logo .social-media-link {
+  display: none;
+}
+body .main-container .header .header-inner-section .line-small-screen {
+  display: none;
+}
+body .main-container .header .header-inner-section .navigation ul {
+  display: flex;
+  justify-content: space-between;
+}
+body .main-container .header .header-inner-section .navigation ul li {
+  list-style: none;
+  margin-right: 25px;
+  line-height: 25px;
+  font-size: 13px;
+  font-weight: 400px;
+  color: #fff;
+}
+body .main-container .header .header-inner-section .navigation ul li:hover {
+  cursor: pointer;
+  color: #ffff74;
+}
+body .main-container .header .header-inner-section .navigation ul .tab-view-sm-links {
+  display: none;
+}
+body .main-container .header .header-inner-section .navigation ul .link.active {
+  color: var(--button-color);
+}
+body .main-container .header .header-inner-section .social-media-link {
+  max-width: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body .main-container .header .header-inner-section .bar-icon {
+  width: 60px;
+  display: none;
+}
+body .main-container .header .header-inner-section .bar-icon i {
+  cursor: pointer;
+}
+body .main-container .section {
+  width: 100%;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.521);
+  background-size: cover;
+}
+body .main-container .section .content {
+  display: none;
+  max-width: 940px;
+  width: 100%;
+  margin: auto;
+  padding: 50px 0;
+}
+body .main-container .section .content .thirukural {
+  max-width: 600px;
+  margin: auto;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+  padding-bottom: 40px;
+}
+body .main-container .section .content .thirukural ::before {
+  content: "\201D";
+}
+body .main-container .section .content .thirukural ::after {
+  content: "\201D";
+}
+body .main-container .section .content .center {
+  text-align: center;
+}
+body .main-container .section .content .center .about-dckap {
+  letter-spacing: 0.8px;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 40px;
+}
+body .main-container .section .content .center .heading {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 75px;
+  color: #fff;
+}
+body .main-container .section .content .center .tamilum {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 94px;
+  color: #fff;
+}
+body .main-container .section .content .btn a {
+  padding: 10px;
+  background-color: black;
+  color: #ffff74;
+  border-radius: 25px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-top: 25px;
+}
+body .main-container .section .content .btn a:hover {
+  background-color: #ffff74;
+  border: 1px solid black;
+  transition: 0.2s;
+  color: black;
+}
+body .main-container .section .content.active {
+  display: block;
+}
+body .main-container .section .nokkam {
+  display: none;
+  max-width: 850px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+body .main-container .section .nokkam .heading1 h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 79px;
+  color: #fff76a;
+}
+body .main-container .section .nokkam .heading2 {
+  margin: 35px 0;
+}
+body .main-container .section .nokkam .heading2 h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--font-color);
+}
+body .main-container .section .nokkam .description {
+  padding: 0px 50px;
+}
+body .main-container .section .nokkam .description p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: var(--font-color);
+}
+body .main-container .section .nokkam .btn {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  border-radius: 35px;
+}
+body .main-container .section .nokkam .btn a {
+  padding: 15px 40px;
+  padding: 10px;
+  background-color: black;
+  color: #ffff74;
+  border-radius: 25px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-top: 25px;
+}
+body .main-container .section .nokkam .btn a:hover {
+  background-color: #ffff74;
+  border: 1px solid black;
+  transition: 0.2s;
+  color: black;
+}
+body .main-container .section .general-rules {
+  width: 100%;
+  margin: auto;
+  text-align: start;
+  color: var(--font-color);
+}
+body .main-container .section .general-rules ol {
+  padding-left: 40px;
+}
+body .main-container .section .general-rules ol li {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--font-color);
+}
+body .main-container .section .general-rules .heading h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 79px;
+  color: #fff76a;
+}
+body .main-container .section .general-rules .round-1 .heading h2,
+body .main-container .section .general-rules .round-2 .heading h2 {
+  line-height: 79px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff76a;
+}
+body .main-container .section .overall-nizhalchineral {
+  padding: 30px 0;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section {
+  display: flex;
+  align-self: start;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section {
+  padding-top: 30px;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents {
+  color: white;
+  width: 100%;
+  max-width: 450px;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .specialText {
+  color: #fff76a;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .titleName {
+  color: #fff76a;
+  font-size: 38px;
+  line-height: 36px;
+  font-weight: 600;
+  padding-bottom: 45px;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiDate .eventDate {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiTimings .eventTime {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  padding: 45px 0px;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiLocation .venue {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section {
+  margin-left: 90px;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section .eventDetailsContents table {
+  color: white;
+  border-collapse: collapse;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section .eventDetailsContents table .tableRow > :first-child {
+  border-right: 1px solid white;
+  padding-right: 20px;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section .eventDetailsContents table .tableRow > :nth-child(2) {
+  padding-left: 40px;
+}
+body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section .eventDetailsContents table .tableRow .tableData {
+  font-size: 16px;
+  height: 92px;
+  max-width: 310px;
+}
+body .main-container .section .overall-nizhalchineral .outer-bottom {
+  padding: 100px 0;
+}
+body .main-container .section .overall-nizhalchineral .outer-bottom .bottom-line {
+  height: 1px;
+  background-color: white;
+}
+body .main-container .section .thodarbugal-container {
+  max-width: 1190px;
+  width: 100%;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.521);
+  padding: 50px 130px;
+  text-align: center;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .titleContactName {
+  font-size: 48px;
+  color: #fff76a;
+  line-height: 46px;
+  font-weight: 700px;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 58px;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .mobile .mobileNumber {
+  color: #fff76a;
+  font-size: 21px;
+  line-height: 24px;
+  padding-bottom: 15px;
+  font-weight: 700px;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .mobile .numberText {
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500px;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .email .mail .mailAddress {
+  color: #fff76a;
+  font-size: 21px;
+  line-height: 24px;
+  padding-bottom: 15px;
+  font-weight: 700px;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .email .mail .emailValue {
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form {
+  padding-top: 85px;
+  max-width: 713px;
+  text-align: center;
+  margin: 0 auto;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form {
+  color: white;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv,
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer,
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer {
+  max-width: 300px;
+  flex: 1;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer label,
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer label {
+  display: block;
+  text-align: left;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer span,
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer span {
+  color: red;
+  padding-left: 3px;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer input,
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer input {
+  width: 100%;
+  max-width: 300px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  margin: 18px 0px 50px 0px;
+  color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer input:hover,
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer input:hover {
+  border: 1px solid #fff76a;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns {
+  max-width: 640px;
+  margin: 0 auto;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width label {
+  display: block;
+  padding-bottom: 18px;
+  text-align: left;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 15px 0px 0px 15px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width textarea:hover {
+  border: 1px solid #fff76a;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width .submitBtn {
+  margin-top: -7px;
+  background: #fff76a;
+  width: 100%;
+  height: 52px;
+  border: 0;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width .submitBtn span i {
+  font-size: 18px;
+  font-weight: 500;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width .submitBtn:hover {
+  background: transparent;
+  border: 1px solid #fff76a;
+  color: #fff76a;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width .submitBtn:hover i {
+  font-weight: bolder;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .social-links {
+  text-align: center;
+  padding-top: 48px;
+}
+body .main-container .section .thodarbugal-container .inner-thodarbugal-container .social-links a {
+  padding-left: 5px;
+  text-decoration: none;
+}
+body .main-container .section .thoguppugal {
+  max-width: 1440px;
+  width: 100%;
+}
+body .main-container .section .thoguppugal .thoguppugal-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+body .main-container .section .thoguppugal .thoguppugal-heading p {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff76a;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background {
+  max-width: 1190px;
+  width: 100%;
+  margin: auto;
+  padding: 55px 0;
+  text-align: center;
+  background-color: #000000b2;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department {
+  padding-bottom: 40px;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name {
+  max-width: 220px;
+  width: 100%;
+  margin: auto;
+  padding: 15px 0;
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--button-color);
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name span {
+  text-decoration: underline;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--font-color);
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p {
+  max-width: 220px;
+  width: 100%;
+  margin: auto;
+  padding: 47px 0px 24px 0px;
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--button-color);
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p span {
+  text-decoration: underline;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content {
+  max-width: 222px;
+  width: 100%;
+  margin: auto;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--font-color);
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name img {
+  width: 299px;
+  height: 187px;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p {
+  max-width: 300px;
+  width: 100%;
+  margin: auto;
+  padding: 47px 0px 24px 0px;
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--button-color);
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p span {
+  text-decoration: underline;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content {
+  max-width: 222px;
+  width: 100%;
+  margin: auto;
+}
+body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--font-color);
+}
+@media screen and (max-width: 1280px) {
+  body .main-container .header .header-inner-section {
+    max-width: 1000px;
+    flex-wrap: wrap;
+  }
+  body .main-container .header .header-inner-section .logo-container .logo {
+    padding: 5px 0;
+  }
+  body .main-container .header .header-inner-section .line-small-screen {
+    order: 3;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ffff74;
+  }
+  body .main-container .header .header-inner-section .navigation {
+    order: 4;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+  }
+  body .main-container .header .header-inner-section .navigation ul li {
+    list-style: none;
+    padding: 0;
+    margin-right: 25px;
+    line-height: 50px;
+  }
+  body .main-container .header .header-inner-section .social-media-link {
+    order: 2;
+  }
+  body .main-container .section {
+    margin: auto;
+    margin-top: 75px;
+  }
+  body .main-container .section .content {
+    padding: 90px 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body .main-container .header .header-inner-section {
+    max-width: 800px;
+    width: 100%;
+  }
+  body .main-container .header .header-inner-section .logo-container {
+    width: 100%;
+  }
+  body .main-container .header .header-inner-section .logo-container .logo {
+    max-width: 730px;
+    width: 100%;
+    padding: 10px 0;
+  }
+  body .main-container .header .header-inner-section .logo-container .logo .sub-logo img {
+    padding-right: 10px;
+  }
+  body .main-container .header .header-inner-section .navigation {
+    max-width: 600px;
+  }
+  body .main-container .header .header-inner-section .navigation ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  body .main-container .section .content {
+    max-width: 620px;
+  }
+  body .main-container .section .content .thirukural {
+    max-width: 580px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: poppins-extralight, sans-serif;
+    line-height: 28px;
+    color: #fff;
+    padding-bottom: 40px;
+  }
+  body .main-container .section .content .center .heading {
+    font-size: 60px;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section {
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle {
+    padding: 70px 60px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer,
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer {
+    max-width: 190px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns {
+    max-width: 414px;
+  }
+  body .main-container .section .thoguppugal {
+    max-width: 1440px;
+    width: 100%;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-heading p {
+    font-size: 49px;
+    font-weight: 700;
+    color: var(--font-color);
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background {
+    max-width: 1190px;
+    width: 100%;
+    margin: auto;
+    padding: 55px 0;
+    text-align: center;
+    background-color: #000000b2;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department {
+    padding-bottom: 40px;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name {
+    max-width: 220px;
+    width: 100%;
+    margin: auto;
+    padding: 15px 0;
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--button-color);
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name span {
+    text-decoration: underline;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--font-color);
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p {
+    max-width: 220px;
+    width: 100%;
+    margin: auto;
+    padding: 47px 0px 24px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--button-color);
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p span {
+    text-decoration: underline;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content {
+    max-width: 222px;
+    width: 100%;
+    margin: auto;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--font-color);
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name img {
+    width: 299px;
+    height: 187px;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    padding: 47px 0px 24px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--button-color);
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p span {
+    text-decoration: underline;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content {
+    max-width: 222px;
+    width: 100%;
+    margin: auto;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--font-color);
+  }
+}
+@media screen and (max-width: 768px) {
+  body .main-container {
+    max-width: 768px;
+  }
+  body .main-container .header {
+    width: 100%;
+    background-color: black;
+  }
+  body .main-container .header .header-inner-section {
+    position: relative;
+  }
+  body .main-container .header .header-inner-section .logo-container {
+    padding-left: 20px;
+  }
+  body .main-container .header .header-inner-section .logo-container .logo .sub-logo img {
+    width: 45px;
+    height: auto;
+  }
+  body .main-container .header .header-inner-section .social-media-link {
+    display: none;
+  }
+  body .main-container .header .header-inner-section .line-small-screen {
+    display: none;
+  }
+  body .main-container .header .header-inner-section .navigation {
+    position: absolute;
+    background-color: var(--primary-color);
+    max-width: 100%;
+    height: 100vh;
+    display: none;
+    top: 67px;
+  }
+  body .main-container .header .header-inner-section .navigation ul {
+    flex-flow: column;
+    align-items: center;
+  }
+  body .main-container .header .header-inner-section .navigation ul li {
+    margin-right: 0;
+  }
+  body .main-container .header .header-inner-section .navigation ul .tab-view-sm-links {
+    display: block;
+    margin: 0px -5px;
+  }
+  body .main-container .header .header-inner-section .navigation ul .tab-view-sm-links a {
+    margin: 0px 5px;
+  }
+  body .main-container .header .header-inner-section .bar-icon {
+    display: block;
+    padding: 20px;
+  }
+  body .main-container .header .header-inner-section .bar-icon i {
+    font-size: 24px;
+    color: #fff;
+  }
+  body .main-container .header .header-inner-section .social-media-link {
+    display: none;
+  }
+  body .main-container .header .header-inner-section .navigation.show {
+    display: block;
+  }
+  body .main-container .section {
+    margin-top: 67px;
+  }
+  body .main-container .section .content {
+    max-width: 568px;
+    padding: 40px 0px;
+  }
+  body .main-container .section .content .thirukural {
+    font-size: 18px;
+  }
+  body .main-container .section .content .center .about-dckap {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+  }
+  body .main-container .section .content .center .heading {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  body .main-container .section .content .center .tamilum {
+    font-size: 30px;
+  }
+  body .main-container .section .nokkam .heading1 h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  body .main-container .section .nokkam .heading2 {
+    margin: 25px 0;
+  }
+  body .main-container .section .nokkam .heading2 h3 {
+    font-size: 23px;
+  }
+  body .main-container .section .nokkam .description {
+    padding: 0px 16px;
+  }
+  body .main-container .section .nokkam .description p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  body .main-container .section .nokkam .btn {
+    margin-top: 0;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .titleName {
+    font-size: 32px;
+    line-height: 34px;
+    padding-bottom: 30px;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiDate .eventDate {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiTimings .eventTime {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 30px 0px;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiLocation .venue {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section .eventDetailsContents table .tableRow .tableData {
+    font-size: 14px;
+    height: 70px;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section .eventDetailsContents table .tableRow > :nth-child(2) {
+    padding-left: 20px;
+  }
+  body .main-container .section .overall-nizhalchineral .outer-bottom {
+    padding: 60px 0px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle {
+    padding: 30px 0px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .titleContactName {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails {
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .mobile .mobileNumber {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .mobile .numberText {
+    font-size: 14px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .email {
+    padding-top: 20px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .email .mail .mailAddress {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .email .mail .emailValue {
+    font-size: 14px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form {
+    padding-top: 35px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv,
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv {
+    display: block;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer,
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer label,
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer label {
+    font-size: 14px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer input,
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer input {
+    margin: 15px 0px 15px 0px;
+    padding-left: 10px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns {
+    max-width: 280px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width label {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width textarea {
+    max-width: 280px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width .submitBtn {
+    max-width: 280px;
+    font-size: 16px;
+    height: 35px;
+  }
+  body .main-container .section .thoguppugal {
+    max-width: 1440px;
+    width: 100%;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-heading p {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--font-color);
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background {
+    max-width: 1190px;
+    width: 100%;
+    margin: auto;
+    padding: 55px 0;
+    text-align: center;
+    background-color: #000000b2;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department {
+    padding-bottom: 40px;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .sokkan {
+    width: 100%;
+    max-width: 280px;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name {
+    max-width: 220px;
+    width: 100%;
+    margin: auto;
+    padding: 15px 0;
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--button-color);
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .profile-img-name .profile-name span {
+    text-decoration: underline;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--font-color);
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one {
+    padding-bottom: 40px;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p {
+    max-width: 220px;
+    width: 100%;
+    margin: auto;
+    padding: 47px 0px 24px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--button-color);
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .person-img-name p span {
+    text-decoration: underline;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content {
+    max-width: 222px;
+    width: 100%;
+    margin: auto;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-one .right-department-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--font-color);
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name img {
+    width: 299px;
+    height: 187px;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    padding: 47px 0px 24px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--button-color);
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .person-img-name p span {
+    text-decoration: underline;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content {
+    max-width: 222px;
+    width: 100%;
+    margin: auto;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .peaple-flex-box .peaple-two .right-department-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--font-color);
+  }
+}
+@media screen and (max-width: 670px) {
+  body .main-container .header .header-inner-section .logo-container .logo {
+    display: block;
+  }
+  body .main-container .header .header-inner-section .logo-container .logo .main-logo {
+    display: none;
+  }
+  body .main-container .section .content {
+    max-width: 470px;
+  }
+  body .main-container .section .content .thirukural {
+    width: 100%;
+    margin: auto;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  body .main-container .section .content .center .about-dckap {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  body .main-container .section .content .center .heading {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  body .main-container .section .content .center .tamilum {
+    font-size: 18px;
+    line-height: 74px;
+  }
+  body .main-container .section .content .btn a {
+    margin-top: 10px;
+  }
+  body .main-container .section .general-rules .heading h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  body .main-container .section .general-rules .rules ol {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  body .main-container .section .general-rules .rules ol li {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  body .main-container .section .general-rules .round-1 .heading h2 {
+    line-height: 40px;
+    text-align: center;
+    font-size: 26px;
+    padding: 20px 0px;
+  }
+  body .main-container .section .general-rules .round-1 ol li {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  body .main-container .section .general-rules .round-2 .heading h2 {
+    line-height: 40px;
+    font-size: 26px;
+    padding: 20px 0px;
+  }
+  body .main-container .section .general-rules .round-2 ol li {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle {
+    padding: 30px 0px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .titleContactName {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails {
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .mobile .mobileNumber {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .mobile .numberText {
+    font-size: 14px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .email {
+    padding-top: 20px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .email .mail .mailAddress {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .email .mail .emailValue {
+    font-size: 14px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form {
+    padding-top: 35px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv,
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv {
+    display: block;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer,
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer label,
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer label {
+    font-size: 14px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer input,
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer input {
+    margin: 15px 0px 15px 0px;
+    padding-left: 10px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns {
+    max-width: 280px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width label {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width textarea {
+    max-width: 280px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns .full-width .submitBtn {
+    max-width: 280px;
+    font-size: 16px;
+    height: 35px;
+  }
+  body .main-container .section .thoguppugal .thoguppugal-peaple-background .right-department .right-department-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0px 14px;
+  }
+}
+@media screen and (max-width: 580px) {
+  body .main-container .section .content {
+    max-width: 340px;
+    padding: 25px 0px;
+  }
+  body .main-container .section .content .thirukural {
+    width: 100%;
+    margin: auto;
+    font-size: 11px;
+    line-height: 16px;
+    padding-bottom: 10px;
+  }
+  body .main-container .section .content .center .about-dckap {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 20px;
+  }
+  body .main-container .section .content .center .heading {
+    font-size: 28px;
+    line-height: 25px;
+  }
+  body .main-container .section .content .center .tamilum {
+    font-size: 11px;
+    line-height: 50px;
+  }
+  body .main-container .section .content .btn {
+    width: 70%;
+  }
+  body .main-container .section .content .btn a {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 10px;
+  }
+  body .main-container .section .nokkam .description p {
+    line-height: 20px;
+  }
+  body .main-container .section .nokkam .heading1 h1 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  body .main-container .section .nokkam .heading2 h3 {
+    font-size: 18px;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section {
+    margin-top: 35px;
+  }
+}
+.card-main-container {
+  background-color: var(--font-color);
+  display: flex;
+  flex-flow: column;
+  max-width: 450px;
+  margin: auto;
+  align-items: center;
+}
+.card-main-container .img-name-cont .image-cont .image {
+  width: 100%;
+  height: auto;
+}
