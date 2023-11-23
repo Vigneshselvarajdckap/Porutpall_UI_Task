@@ -61,9 +61,6 @@ body .main-container .header .header-inner-section {
   justify-content: space-between;
   align-items: center;
 }
-body .main-container .header .header-inner-section .logo-container {
-  flex: 1;
-}
 body .main-container .header .header-inner-section .logo-container .logo {
   max-width: 380px;
   width: 100%;
@@ -88,8 +85,8 @@ body .main-container .header .header-inner-section .navigation ul li {
   list-style: none;
   margin-right: 25px;
   line-height: 25px;
-  font-size: 13px;
-  font-weight: 400px;
+  font-size: 14px;
+  font-weight: 400;
   color: #fff;
 }
 body .main-container .header .header-inner-section .navigation ul li:hover {
@@ -134,7 +131,7 @@ body .main-container .section .content .thirukural {
   width: 100%;
   font-size: 18px;
   font-weight: 600;
-  line-height: 28px;
+  line-height: 24px;
   color: #fff;
   padding-bottom: 40px;
 }
@@ -148,7 +145,6 @@ body .main-container .section .content .center {
   text-align: center;
 }
 body .main-container .section .content .center .about-dckap {
-  letter-spacing: 0.8px;
   max-width: 800px;
   width: 100%;
   margin: auto;
@@ -213,8 +209,8 @@ body .main-container .section .nokkam .description {
   padding: 0px 50px;
 }
 body .main-container .section .nokkam .description p {
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 400;
   color: var(--font-color);
 }
@@ -250,7 +246,7 @@ body .main-container .section .general-rules ol {
   padding-left: 40px;
 }
 body .main-container .section .general-rules ol li {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 500;
   color: var(--font-color);
@@ -326,7 +322,7 @@ body .main-container .section .overall-nizhalchineral .nizhalchineral-section .e
   padding-left: 40px;
 }
 body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section .eventDetailsContents table .tableRow .tableData {
-  font-size: 16px;
+  font-size: 18px;
   height: 92px;
   max-width: 310px;
 }
@@ -351,7 +347,7 @@ body .main-container .section .thodarbugal-container .inner-thodarbugal-containe
   font-size: 48px;
   color: #fff76a;
   line-height: 46px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails {
   display: flex;
@@ -575,7 +571,7 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
   }
   body .main-container .section {
     margin: auto;
-    margin-top: 122px;
+    margin-top: 120px;
   }
   body .main-container .section .thoguppugal {
     max-width: 90%;
@@ -598,9 +594,6 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
     max-width: 800px;
     width: 100%;
   }
-  body .main-container .header .header-inner-section .logo-container {
-    width: 100%;
-  }
   body .main-container .header .header-inner-section .logo-container .logo {
     max-width: 730px;
     width: 100%;
@@ -616,31 +609,101 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
     display: flex;
     justify-content: space-between;
   }
+  body .main-container .section {
+    margin-top: 130px;
+  }
+  body .main-container .section .content {
+    padding: 30px 0;
+  }
   body .main-container .section .content .thirukural {
     max-width: 580px;
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     font-family: poppins-extralight, sans-serif;
     line-height: 28px;
     color: #fff;
     padding-bottom: 40px;
   }
+  body .main-container .section .content .center .about-dckap {
+    font-size: 28px;
+    max-width: 750px;
+    line-height: 36px;
+    padding-bottom: 30px;
+  }
   body .main-container .section .content .center .heading {
-    font-size: 60px;
+    font-size: 48px;
+    line-height: 52px;
+  }
+  body .main-container .section .content .center .tamilum {
+    font-size: 32px;
+    line-height: 80px;
+  }
+  body .main-container .section .nokkam .heading1 h1 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  body .main-container .section .nokkam .heading2 {
+    margin: 27px 0;
+  }
+  body .main-container .section .nokkam .heading2 h3 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  body .main-container .section .nokkam .description p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  body .main-container .section .general-rules .heading h1 {
+    font-size: 38px;
+    line-height: 52px;
+  }
+  body .main-container .section .general-rules ol {
+    padding-left: 80px;
+  }
+  body .main-container .section .general-rules ol li {
+    line-height: 26px;
+  }
+  body .main-container .section .general-rules .rules {
+    margin-top: 15px;
+  }
+  body .main-container .section .general-rules .round-2 .heading h2 {
+    line-height: 65px;
   }
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section {
     text-align: center;
     flex-direction: column;
     align-items: center;
   }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section {
+    padding-top: 0;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .titleName {
+    line-height: 52px;
+    padding: 0;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiDate {
+    margin-top: 20px;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiTimings .eventTime {
+    padding: 30px 0px;
+  }
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section {
     text-align: center;
     margin-left: 0px;
-    margin-top: 60px;
+    margin-top: 40px;
+  }
+  body .main-container .section .thodarbugal-container {
+    max-width: 930px;
   }
   body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle {
-    padding: 70px 60px;
+    padding: 50px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .titleContactName {
+    font-size: 38px;
+  }
+  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails {
+    padding-top: 40px;
   }
   body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer,
   body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer {
@@ -655,6 +718,9 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
   body .main-container .section .thoguppugal .thoguppugal-heading {
     margin-bottom: 30px;
   }
+  body .main-container .section .thoguppugal .thoguppugal-heading p {
+    font-size: 38px;
+  }
   body .main-container .section .thoguppugal .inner-container {
     flex-flow: column;
     align-items: center;
@@ -667,6 +733,14 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
   }
   body .main-container .section .thoguppugal .inner-container .card-main-container .img-name-cont .image-cont .image {
     height: auto;
+  }
+  body .main-container .section .thoguppugal .inner-container .card-main-container .img-name-cont .name {
+    padding: 15px 0;
+    line-height: 22px;
+    font-size: 18px;
+  }
+  body .main-container .section .thoguppugal .inner-container .card-main-container .guest-description p {
+    line-height: 22px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -730,10 +804,10 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
     display: block;
   }
   body .main-container .section {
-    margin-top: 60px;
+    margin-top: 80px;
   }
   body .main-container .section .content {
-    max-width: 568px;
+    max-width: 600px;
     padding: 40px 0px;
   }
   body .main-container .section .content .thirukural {
@@ -754,17 +828,22 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
     margin: 25px 0;
   }
   body .main-container .section .nokkam .heading2 h3 {
-    font-size: 23px;
+    font-size: 24px;
   }
   body .main-container .section .nokkam .description {
     padding: 0px 16px;
   }
   body .main-container .section .nokkam .description p {
-    font-size: 14px;
-    line-height: 22px;
+    line-height: 20px;
   }
   body .main-container .section .nokkam .btn {
     margin-top: 0;
+  }
+  body .main-container .section .general-rules ol {
+    padding: 0;
+  }
+  body .main-container .section .general-rules ol li {
+    font-size: 16px;
   }
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .titleName {
     font-size: 32px;
@@ -772,20 +851,20 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
     padding-bottom: 30px;
   }
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiDate .eventDate {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 30px;
   }
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiTimings .eventTime {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 30px;
     padding: 30px 0px;
   }
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiLocation .venue {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 30px;
   }
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section .eventDetailsContents table .tableRow .tableData {
-    font-size: 14px;
+    font-size: 16px;
     height: 70px;
   }
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section .eventDetailsContents table .tableRow > :nth-child(2) {
@@ -881,12 +960,14 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
   body .main-container .section .content .thirukural {
     width: 100%;
     margin: auto;
-    font-size: 16px;
+    font-size: 14px;
     padding-bottom: 20px;
+    line-height: 20px;
   }
   body .main-container .section .content .center .about-dckap {
     font-size: 18px;
     padding-bottom: 20px;
+    line-height: 22px;
   }
   body .main-container .section .content .center .heading {
     font-size: 36px;
@@ -899,38 +980,45 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
   body .main-container .section .content .btn a {
     margin-top: 10px;
   }
+  body .main-container .section .nokkam .heading2 {
+    margin: 15px 0;
+  }
+  body .main-container .section .nokkam .description p {
+    line-height: 18px;
+    font-size: 14px;
+  }
   body .main-container .section .general-rules .heading h1 {
     text-align: center;
     font-size: 26px;
     font-weight: 700;
     line-height: 40px;
   }
-  body .main-container .section .general-rules .rules ol {
-    padding-top: 20px;
-    padding-left: 20px;
+  body .main-container .section .general-rules ol {
+    padding-top: 0px;
+    padding-left: 30px;
   }
-  body .main-container .section .general-rules .rules ol li {
-    font-size: 14px;
-    line-height: 24px;
+  body .main-container .section .general-rules ol li {
+    font-size: 12px;
+    line-height: 17px;
+    padding: 3px 0;
   }
-  body .main-container .section .general-rules .round-1 .heading h2 {
+  body .main-container .section .general-rules .round-1 .heading h2,
+  body .main-container .section .general-rules .round-2 .heading h2 {
     line-height: 40px;
     text-align: center;
     font-size: 26px;
-    padding: 20px 0px;
+    padding: 5px 0px;
   }
-  body .main-container .section .general-rules .round-1 ol li {
-    font-size: 14px;
-    line-height: 24px;
+  body .main-container .section .general-rules .round-1 ol,
+  body .main-container .section .general-rules .round-2 ol {
+    padding-top: 0px;
+    padding-left: 30px;
   }
-  body .main-container .section .general-rules .round-2 .heading h2 {
-    line-height: 40px;
-    font-size: 26px;
-    padding: 20px 0px;
-  }
+  body .main-container .section .general-rules .round-1 ol li,
   body .main-container .section .general-rules .round-2 ol li {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 3px 0;
   }
   body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle {
     padding: 30px 0px;
@@ -997,8 +1085,27 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
     font-size: 16px;
     height: 35px;
   }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .titleName {
+    padding-bottom: 0;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiDate .eventDate {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiTimings .eventTime {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 20px 0px;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiLocation .venue {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section .eventDetailsContents table .tableRow .tableData {
+    font-size: 14px;
+  }
   body .main-container .section .thoguppugal .thoguppugal-heading p {
-    font-size: 24px;
+    font-size: 30px;
   }
   body .main-container .section .thoguppugal .inner-container {
     max-width: unset;
@@ -1009,6 +1116,13 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
   }
   body .main-container .section .thoguppugal .inner-container .card-main-container .img-name-cont .image-cont .image {
     height: 150px;
+  }
+  body .main-container .section .thoguppugal .inner-container .card-main-container .img-name-cont .name {
+    font-size: 16px;
+  }
+  body .main-container .section .thoguppugal .inner-container .card-main-container .guest-description p {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 @media screen and (max-width: 580px) {
@@ -1043,16 +1157,6 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
     text-align: center;
     font-size: 11px;
     margin-top: 10px;
-  }
-  body .main-container .section .nokkam .description p {
-    line-height: 20px;
-  }
-  body .main-container .section .nokkam .heading1 h1 {
-    font-size: 32px;
-    line-height: 45px;
-  }
-  body .main-container .section .nokkam .heading2 h3 {
-    font-size: 18px;
   }
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section .eventDetails-section {
     margin-top: 35px;
