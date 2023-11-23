@@ -212,7 +212,7 @@ body .main-container .section .nokkam .description {
 body .main-container .section .nokkam .description p {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--font-color);
 }
 body .main-container .section .nokkam .btn {
@@ -720,19 +720,12 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
   body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails {
     padding-top: 40px;
   }
-  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails {
-    display: block;
-    padding-top: 40px;
-  }
-  body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .contactDetails .email {
-    padding-top: 20px;
-  }
   body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer,
   body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer {
     max-width: 190px;
   }
   body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns {
-    max-width: 414px;
+    max-width: 486px;
   }
   body .main-container .section .thoguppugal {
     margin-top: 80px;
@@ -764,6 +757,9 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
   body .main-container .section .thoguppugal .inner-container .card-main-container .guest-description p {
     line-height: 22px;
   }
+  body .main-container .section .thoguppugal .inner-container .order {
+    order: -1;
+  }
 }
 @media screen and (max-width: 768px) {
   body .main-container {
@@ -781,7 +777,7 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
   }
   body .main-container .header .header-inner-section .logo-container .logo .sub-logo img {
     width: 45px;
-    height: 35px;
+    height: auto;
   }
   body .main-container .header .header-inner-section .social-media-link {
     display: none;
@@ -836,13 +832,11 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
   body .main-container .section .content .thirukural {
     font-size: 18px;
   }
-
   body .main-container .section .content .center .about-dckap {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0px;
   }
-
   body .main-container .section .content .center .heading {
     font-size: 40px;
     line-height: 60px;
@@ -881,10 +875,8 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
     padding-bottom: 20px;
   }
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiDate .eventDate {
-
     font-size: 22px;
     line-height: 30px;
-
   }
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiTimings .eventTime {
     font-size: 22px;
@@ -892,7 +884,6 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
     padding: 20px 0px;
   }
   body .main-container .section .overall-nizhalchineral .nizhalchineral-section .inner-nizhachineral-section .first-container-contents .nizhalchiLocation .venue {
-
     font-size: 22px;
     line-height: 30px;
   }
@@ -993,7 +984,6 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
     width: 100%;
     margin: auto;
     font-size: 14px;
-
     padding-bottom: 20px;
     line-height: 20px;
   }
