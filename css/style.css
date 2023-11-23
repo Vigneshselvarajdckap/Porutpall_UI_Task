@@ -722,10 +722,10 @@ body .main-container .section .thoguppugal .inner-container .card-main-container
   }
   body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .nameDiv .inputContainer,
   body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .detailsDiv .inputContainer {
-    max-width: 190px;
+    max-width: 280px;
   }
   body .main-container .section .thodarbugal-container .inner-thodarbugal-container .blur-rectangle .contactTitle .form form .btns {
-    max-width: 486px;
+    max-width: 600px;
   }
   body .main-container .section .thoguppugal {
     margin-top: 80px;
